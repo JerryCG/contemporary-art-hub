@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Contemporary Art Quiz</title>
+    <script>
+        function check() {
+            var c=0;
+            var q1=document.quiz.question1.value;
+            var q2=document.quiz.question2.value;
+            var q3=document.quiz.question3.value;
+            var q4=document.quiz.question4.value;
+            var q5=document.quiz.question5.value;
+            var q6=document.quiz.question6.value;
+            var q7=document.quiz.question7.value;
+            var q8=document.quiz.question8.value;
+            var q9=document.quiz.question9.value;
+            var q10=document.quiz.question10.value;
+            var result=document.getElementById('result');
+            var quiz=document.getElementById("quiz");
+            if (q1=="Claude Monet") {c++}
+            if (q2=="Post-impressionism") {c++}
+            if (q3=="Impression, Sunrise") {c++}
+            if (q4=="Neoclassicism") {c++}
+            if (q5=="Surrealism") {c++}
+            if (q6=="Paul Cezanne") {c++}
+            if (q7=="The Card Players") {c++}
+            if (q8=="Disagree") {c++}
+            if (q9=="Minimalism") {c++}
+            if (q10=="Yes, I love it.") {c++}
+          quiz.style.display="none";
+            if (c<=2) {
+                result.textContent=`Your result is ${10*c}. Your are a totally new friend to contemporary art!`
+            }
+                else if (c<=5) {
+                    result.textContent=`Your result is ${10*c}. Your know some basic things about contemporary art. Keep up!`
+                }
+                else if (c<=7) {
+                    result.textContent=`Your result is ${10*c}. You have a good knowledge of contemporary art. Well done!`
+                }
+                else if (c<=9) {
+                    result.textContent=`Your result is ${10*c}. You are an expert at contemporary art already!`
+                }
+                else
+                {
+                    result.textContent=`Your result is ${10*c}. You are a genius of contemporary art!`
+                }
+        }
+    </script>
+    
+    
+    <style>
+        body {
+            background-color: rgb(175,238,238);
+            margin-left: 2rem;
+        }
+        
+        #button{
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+        .heading{
+            background-color: rgb(255,228,181);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading"><u>Contemporary Art Quiz</u> <sub>(100 points total)</sub></h1>
+    <form name="quiz" id="quiz">
+        <div>
+            <h2>1. Who is the Father of Impressionism?</h2>
+            <p><input type="radio" name="question1" value="Paul Cezanne">A. Paul Cezanne</p>
+            <p><input type="radio" name="question1" value="Claude Monet">B. Claude Monet</p>
+            <p><input type="radio" name="question1" value="Jerry CG">C. Jerry CG [Doge]</p>
+            <p><input type="radio" name="question1" value="Vincent van Gogh">D. Vincent van Gogh</p>
+        </div>
+        
+        <div>
+            <h2>2. Which genre does <u>Vincent van Gogh's </u>art belong to?</h2>
+            <p><input type="radio" name="question2" value="Post-impressionism">A. Post-impressionism</p>
+            <p><input type="radio" name="question2" value="Cubism">B. Cubism</p>
+            <p><input type="radio" name="question2" value="Classicism">C. Classicism</p>
+            <p><input type="radio" name="question2" value="Jerry CG's freestyle">D. Jerry CG's freestyle [Doge]</p>
+        </div>
+        
+        <div>
+            <h2>3. Which of the works below does NOT belong to Vincent van Gogh?</h2>
+            <p><input type="radio" name="question3" value="Starry Sky"> <img src="Starry Sky.jpg" alt="Starry Sky" width=250 height=180></p>
+            <p><input type="radio" name="question3" value="Sunflower"> <img src="Sunflower.jpg" alt="Sunflower" width=200 height=250></p>
+            <p><input type="radio" name="question3" value="Impression, Sunrise"> <img src="../Impressionism/Claude Monet/Impression, Sunrise.jpg" alt="Impression, Sunrise" width=250 height=180></p>
+            <p><input type="radio" name="question3" value="Vincent Self-Portrait"> <img src="Vincent Self-Portrait.jpg" alt="Vincent Self-Portrait" width=200 height=250></p>
+        </div>
+        
+        <div>
+            <h2>4. Which of the below genres does NOT belong to the scope of contemporary art?</h2>
+            <p><input type="radio" name="question4" value="Neoclassicism">A. Neoclassicism</p>
+            <p><input type="radio" name="question4" value="Impressionism">B. Impressionism</p>
+            <p><input type="radio" name="question4" value="Minimalism">C. Minimalism</p>
+            <p><input type="radio" name="question4" value="Suprematism">D. Suprematism</p>
+        </div>
+        
+        <div>
+            <h2>5. Observe the below sculpture work carefully. What kind of art genre does it demonstrate?</h2>
+            <img src="Surrealistic Clock.jpg" alt="Surrealistic Clock" width=300 height=400>
+            <p><input type="radio" name="question5" value="Impressionism">A. Impressionism</p>
+            <p><input type="radio" name="question5" value="Dadaism">B. Dadasim</p>
+            <p><input type="radio" name="question5" value="Surrealism">C. Surrealism</p>
+            <p><input type="radio" name="question5" value="Realism">D. Realism</p>
+        </div>
+        
+        <div>
+            <h2>6. Picasso once said one artist "is the Father of us (Modern Art) all". Who is this artist?</h2>
+            <p><input type="radio" name="question6" value="Paul Cezanne">A. Paul Cezanne</p>
+            <p><input type="radio" name="question6" value="Pablo Ruiz Picasso">B. Pablo Ruiz Picasso</p>
+            <p><input type="radio" name="question6" value="Jerry CG">C. Jerry CG [Doge]</p>
+            <p><input type="radio" name="question6" value="Vincent van Gogh">D. Vincent van Gogh</p>
+        </div>
+        
+        <div>
+            <h2>7. Which of following paintings has the highest auction price?</h2>
+            <p><input type="radio" name="question7" value="The Card Players">A. The Card Players</p>
+            <p><input type="radio" name="question7" value="The Scream">B. The Scream</p>
+            <p><input type="radio" name="question7" value="Vase with Fifteen Sunflowers">C. Vase with Fifteen Sunflowers</p>
+            <p><input type="radio" name="question7" value="Any of Jerry CG's works">D. Any of Jerry CG's works</p>
+        </div>
+        
+        <div>
+            <h2>8. Someone says contemporary art is worse than traditional art because what it depicts is mostly vague and hard to understand, do you agree?</h2>
+            <p><input type="radio" name="question8" value="Agree">A. Agree</p>
+            <p><input type="radio" name="question8" value="Disagree">B. Disagree</p>
+ 
+        </div>
+        
+        <div>
+            <h2>9. Play the below soundtrack and listen carefully. What art style does it have?</h2>
+            <audio controls>
+                <source src="Minimalism Music.mp3" type="audio/mpeg">
+            </audio>
+            <p><input type="radio" name="question9" value="Fauvism">A. Fauvism</p>
+            <p><input type="radio" name="question9" value="Abstractism">B. Abstractism</p>
+            <p><input type="radio" name="question9" value="Minimalism">C. Minimalism</p>
+            <p><input type="radio" name="question9" value="Expressionism">D. Expressionism</p>
+        </div>
+        
+        <div>
+            <h2>10. Do you like contemporary art?</h2>
+            <p><input type="radio" name="question10" value="Yes, I love it.">A. Yes, I love it.</p>
+            <p><input type="radio" name="question10" value="No, not at all.">B. No, not at all.</p>
+            
+            
+        </div>
+        
+        
+        <input type="button" name="" value="Finished" id="button" onclick="check()">
+    </form>
+<p id="result"></p>
+</body>
+</html>
