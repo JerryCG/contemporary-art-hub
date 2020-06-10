@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Neo-impressionism</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .heading1{
+        background-color:rgb(255,255,224);
+        color: rgb(0,191,255);
+        }
+        
+        .heading2{
+        font-family: fantasy;
+        color: rgb(65,105,225);
+        border-bottom: groove;
+        border-bottom-color: rgb(255,255,0);
+    }
+    
+    {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
+    .slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: 1rem;
+    }
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    }
+    
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }   
+    
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    
+     .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+    
+    @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+    }
+    
+    /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+    
+    </style>
+</head>
+<body>
+    <h1 class="heading1">Neo-impressionism</h1>
+    
+    <p><b><i>Neo-impressionism</i></b> is a term an art movement founded by <a href="Georges Seurat/Georges Seurat.html" target="_blank">Georges Seurat</a>.
+    Seurat's most renowned masterpiece, <a href="Georges Seurat/A Sunday Afternoon on the Island of La Grande Jatte.html" target="_blank"><i>A Sunday Afternoon on the Island of La Grande Jatte</i></a>,
+    marked the beginning of this movement when it first made its appearance at an exhibition in Paris.
+    Neo-impressionism was born during the 80s of 19th century when the Impressionism
+    developed to its prime time.
+    
+    </p>
+    
+    <p>
+        Around this time, the peak of France's modern era emerged and many
+        painters were in search of new methods. Followers of Neo-Impressionism,
+        in particular, were drawn to modern urban scenes as well as landscapes and
+        seashores. Science-based interpretation of lines and colors influenced
+        Neo-impressionists' characterization of their own contemporary art.
+        The <i id="myBtn"><u style="color: blue">Pointillist and Divisionist</u></i>   techniques are often mentioned in this context,
+        because it was the dominant technique in the beginning of the Neo-impressionist movement.
+    </p>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Pointillism</h1>
+                <p>Pointillism is a technique of painting
+                in which small, distinct dots of color are
+                applied in patterns to form an image.
+                The technique relies on the ability of
+                the eye and mind of the viewer to blend
+                the color spots into a fuller range of tones.</p>
+                <h1>Divisionism</h1>
+                <p>Divisionism was the artistic style defined
+                by the separation of colors into individual
+                dots or patches which interacted optically. 
+                By requiring the viewer to combine the colors
+                optically instead of physically mixing pigments,
+                Divisionists believed they were achieving the maximum
+                luminosity scientifically possible.</p>
+        </div>
+        
+        </div>
+        
+        <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+    <p>Some argue that Neo-impressionism became the first true avant-garde movement in painting.
+        The Neo-impressionists were able to create a movement very quickly in the 19th century,
+        partially due to its strong connection to anarchism, which set a pace for later artistic manifestations.
+        The movement and the style were an attempt to drive "harmonious" vision from modern science,
+        anarchist theory, and late 19th-century debate around the value of academic art.
+        The artists of the movement "promised to employ optical and psycho-biological theories in pursuit
+        of a grand synthesis of the ideal and the real, the fugitive and the essential,
+        science and temperament."
+    </p>
+    
+    <p>
+        Neo-impressionism played an important role in guiding the 20th-century Fauvism, early Cubism, Futurism, Abstractism and postmodern Pop art, etc. 
+    </p>
+        
+        <h2 class="heading2">Representative Artists</h2>
+        <ol>
+            <li><a href="Georges Seurat/Georges Seurat.html" target="_blank">Georges Seurat (French, 1859-1891)</a></li>
+            <br>
+            <li><a href="Paul Signac/Paul Signac.html" target="_blank">Paul Signac (French, 1863-1935)</a></li>
+        </ol>
+        <hr>
+        <h2>Neo-impressionism Artworks Slideshow</h2>
+        <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="Georges Seurat/Models.jpg" style="width:100%">
+  <div class="text">Models</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="Paul Signac/The Pine Tree at Saint Tropez.jpg" style="width:100%">
+  <div class="text">The Pine Tree at Saint Tropez</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="Paul Signac/The Port of Rotterdam.jpg" style="width:100%">
+  <div class="text">The Port of Rotterdam</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="Paul Signac/The Port of Saint-Tropez.jpg" style="width:100%">
+  <div class="text">The Port of Saint-Tropez</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="margin-left: 16.3rem ">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+        
+</body>
+</html>
