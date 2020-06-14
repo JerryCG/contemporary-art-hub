@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Vincent van Gogh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .heading1{
+            background-color: rgb(230,230,250);
+        }
+        
+        .heading2{
+            background-color: rgb(255,215,0);
+            font-family: fantasy;
+            border: 2px solid DodgerBlue;
+            
+        }
+        
+         /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <h1 class="heading1"><u>Vincent van Gogh</u> <sub>(Dutch, 1853-1890, Post-impressionism)</sub></h1>
+    <img src="Vincent van Gogh.jpg" alt="Vincent van Gogh" width=300 height=325>
+    <p>
+         A Dutch Post-impressionist painter who is among the most famous and influential
+         figures in the history of Western art. He's famed for the beautiful vitality of
+         his works that are characterized by expressive and emotive use of vibrant color
+         and playful use of impastoed paint. The traumas of his life, recorded in his letters,
+         have tended to dominate and distort modern perceptions of his artwork.
+    </p>
+    
+    <p>
+        <b>Van Gogh had many famous quotes that spread widely:</b>
+    </p>
+    <ul>
+        <li><i>"What is done in love is done well."</i></li>
+        <li><i>"Paintings have a life of their own that derives from the painter's soul."</i></li>
+        <li><i>"I dream of painting and then I paint my dream."</i></li>
+        <li><i>"I put my heart and my soul into my work, and have lost my mind in the process."</i></li>
+        <li><i>"I don't know anything with certainty, but seeing the stars makes me dream."</i></li>
+        <li><i>"There is nothing more truly artistic than to love people."</i></li>
+        <li><i>"I would rather die of passion than of boredom."</i></li>
+        <li><i>"I always think that the best way to know God is to love many things."</i></li>
+        <li><i>"It is looking at things for a long time that ripens you and gives you a deeper meaning."</i></li>
+        <li><i>"I am always doing what I cannot do yet, in order to learn how to do it."</i></li>
+    
+    </ul>   
+        <hr>
+        <h4><i>A song called "Vincent" <i id="myBtn"><u style="color: blue">See lyrics</u></i></h4>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1><i>Vincent</i></h1>
+                <p>
+                    Starry, starry night <br>
+                    Paint your palette blue and grey <br>
+                    Look out on a summer's day <br>
+                    With eyes that know the darkness in my soul <br>
+                    Shadows on the hills <br>
+                    Sketch the trees and the daffodils <br>
+                    Catch the breeze and the winter chills <br>
+                    In colors on the snowy linen land <br><br>
+                    Now I understand <br>
+                    What you tried to say to me <br>
+                    And how you suffered for your sanity <br>
+                    And how you tried to set them free <br> 
+                    They would not listen, they did not know how <br>
+                    Perhaps they'll listen now <br><br>
+                    Starry, starry night <br>
+                    Flaming flowers that brightly blaze <br>
+                    Swirling clouds in violet haze <br>
+                    Reflect in Vincent's eyes of china blue <br>
+                    Colors changing hue <br>
+                    Morning fields of amber grain <br>
+                    Weathered faces lined in pain <br>
+                    Are soothed beneath the artist's loving hand <br><br>
+                    Now I understand <br>
+                    What you tried to say to me <br>
+                    And how you suffered for your sanity <br>
+                    And how you tried to set them free <br>
+                    They would not listen, they did not know how <br>
+                    Perhaps they'll listen now <br><br>
+                    For they could not love you <br>
+                    But still your love was true <br>
+                    And when no hope was left in sight <br>
+                    On that starry, starry night <br>
+                    You took your life, as lovers often do <br>
+                    But I could have told you, Vincent <br>
+                    This world was never meant for one <br>
+                    As beautiful as you <br><br>
+                    Starry, starry night <br>
+                    Portraits hung in empty halls <br>
+                    Frameless heads on nameless walls <br>
+                    With eyes that watch the world and can't forget <br>
+                    Like the strangers that you've met <br>
+                    The ragged men in the ragged clothes <br>
+                    The silver thorn, a bloody rose <br>
+                    Lie crushed and broken on the virgin snow <br><br>
+                    Now I think I know <br>
+                    What you tried to say to me <br>
+                    And how you suffered for your sanity <br>
+                    And how you tried to set them free <br>
+                    They would not listen, they're not listening still <br>
+                    Perhaps they never will
+                </p>
+                
+            </div>
+        
+        </div>
+        
+        <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+        <audio controls>
+            <source src="Vincent.mp3" type="audio/mpeg">
+        </audio>
+        
+    
+    
+    <h2 class="heading2">Representative Works of Art</h2>
+    <ol>
+        <li><a href="Sunflowers series.html" target="_blank"><i>Sunflowers series</i></a></li>
+        <br>
+        <a href="Sunflowers series.html" target="_blank">
+            <img src="Sunflowers1.jpg" alt="Sunflowers1" width=250 height=310>
+        </a>
+        <br>
+        <br>
+        <li><a href="Wheatfield with Crows.html" target="_blank"><i>Wheatfield with Crows</i></a></li>
+        <br>
+        <a href="Wheatfield with Crows.html" target="_blank">
+            <img src="Wheatfield with Crows.jpg" alt="Wheatfield with Crows" width=430 height=220>
+        </a>
+        <br>
+        <br>
+        <li><a href="The Starry Night.html" target="_blank"><i>The Starry Night</i></a></li>
+        <br>
+        <a href="The Starry Night.html" target="_blank">
+            <img src="The Starry Night.jpg" alt="The Starry Night" width=400 height=320>
+        </a>
+        <br>
+        <br>
+        <li><a href="The Starry Night Over The Rhone.html" target="_blank"><i>The Starry Night Over The Rhone</i></a></li>
+        <br>
+        <a href="The Starry Night Over The Rhone.html" target="_blank">
+            <img src="The Starry Night Over The Rhone.jpg" alt="The Starry Night Over The Rhone" width=420 height=285>
+        </a>
+        <br>
+        <br>
+        <li><a href="The Night Cafe.html" target="_blank"><i>The Night Cafe</i></a></li>
+        <br>
+        <a href="The Night Cafe.html" target="_blank">
+            <img src="The Night Cafe.jpg" alt="The Night Cafe" width=400 height=320>
+        </a>
+        
+    </ol>
+    <h4> To other Post-impressionism Artists: </h4>
+             <a href="../Paul Cezanne/Paul Cezanne.html" target="_blank">Paul Cezanne</a>
+        <br>
+        <br>
+             <a href="../Paul Gauguin/Paul Gauguin.html" target="_blank">Paul Gauguin</a> 
+</body>
+</html>
