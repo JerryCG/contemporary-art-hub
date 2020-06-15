@@ -14,7 +14,7 @@
         {
             var name;
             name = prompt ("What is your name?");
-            document.getElementById("hello").innerHTML= "Hello " + name + "!";
+            document.getElementById("hello").innerHTML= "Hello "+ name + "!";
         }
         
         
@@ -23,21 +23,23 @@
     </script>
     <style>
         .heading1{
-            color:blue;
-            background-color:yellow;
+            color:deepskyblue;
+            background-color: lemonchiffon;
             font-family: fantasy;
             font-size: 60px;
         }
         .heading2{
-            color:green;
+            color:dodgerblue;
             border-bottom: groove;
             border-bottom-color: purple;
-            font-family: monospace;
+            font-family: candara;
         }
-  
+        
+        
         .paragraph{
-            background-color: rgb(255,215,0);
             margin-left: 20px;
+            font-family: candara;
+            font-size: 15px;
         }
   
         .list{
@@ -56,17 +58,42 @@
        .margin{
         margin-left: 20px; 
        }
+       
+       
+       .work{
+        font-family: Candara;
+        font-size: 20px;
+        vertical-align: -5px;
+       }
+       
+       .button1{
+            margin-left: 20px;
+            font-family: candara;
+            background-color: lightyellow;
+            border: 2px solid DodgerBlue;
+            border-radius: 12px;
+       }
+       
+       
+       .button2{
+            margin-left: 20px;
+            font-family: candara;
+            background-color: lightyellow;
+            border: 2px solid DodgerBlue;
+            border-radius: 12px;
+       }
+       
     </style>
 </head>
 <body onload="init();">
     
     <div class="logo">
     <img src="Logo.png" alt="Logo" width=100 height=100>
-    <span class="heading1" onclick="myclick();">Contemporary Art Hub</span></div>
+    <span class="heading1" onclick="myclick();">Contemporary Art Hub</span><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Welcome.gif" width=250 height=80></span></div>
     
     <div class="margin">
     <div class="list">
-    <h2 id="hello"></h2>
+    <h1 id="hello"></h1>
     <p> Welcome to the amazing world of <i> <a href="Introduction.html" target="_blank">contemporary art! </a> </i> <br> Here, you can learn and enjoy various
         contemporary artworks and artists, which have important positions in history.</p>
     <p>Before our journey on this website, you may also
@@ -99,15 +126,15 @@
             <li>Surrealism</li>
         </ul>
     <hr>
-    <h3 class="margin">Hey! You may also want to see some works created by Jerry CG!</h3>
-    <a href="Jerry CG's Works/Jerry CG's Contemporary Art.html" target="_blank"><button class="margin">Click me to see!</button></a>
+    &nbsp;&nbsp;<img src="Hey.gif" width=70 height=70><span class="work">&nbsp;You may also want to see some works created by Jerry CG!</span><br>
+    <a href="Jerry CG's Works/Jerry CG's Contemporary Art.html" target="_blank"><button class="button1">Click me to see!</button></a>
     <br>
     <br>
         <img src="Home page picture 1.jpg" alt="picture 1" width=500 height=200 class="margin">
     <hr>
      <p class="paragraph">Learning how to appreciate contemporary art is far more important
      than purely memorizing basic knowledge! See some Jerry CG's art appreciation comments!</p>
-     <a href="Jerry's Art Appreciation/Jerry CG's Contemporary Art Appreciation.html" target="_blank"><button class="margin">Click me to see!</button></a>
+     <a href="Jerry's Art Appreciation/Jerry CG's Contemporary Art Appreciation.html" target="_blank"><button class="button2">Learn More</button></a>
      <br>
      <br>
      <img src="Home page picture 2.jpg" alt="picture 2" width=500 height=200 class="margin">
