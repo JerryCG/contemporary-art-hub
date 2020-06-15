@@ -26,6 +26,7 @@
             color:blue;
             background-color:yellow;
             font-family: fantasy;
+            font-size: 60px;
         }
         .heading2{
             color:green;
@@ -36,19 +37,34 @@
   
         .paragraph{
             background-color: rgb(255,215,0);
+            margin-left: 20px;
         }
   
         .list{
             font-family: Candara;
         }
-    
+        
+        .logo{
+            border: 2px solid orange;
+        }
+        
+       img{
+        vertical-align: -28px;
+       }
+       
+       
+       .margin{
+        margin-left: 20px; 
+       }
     </style>
 </head>
 <body onload="init();">
     
+    <div class="logo">
+    <img src="Logo.png" alt="Logo" width=100 height=100>
+    <span class="heading1" onclick="myclick();">Contemporary Art Hub</span></div>
     
-    
-    <h1 class="heading1" onclick="myclick();"> Contemporary Art Hub</h1>
+    <div class="margin">
     <div class="list">
     <h2 id="hello"></h2>
     <p> Welcome to the amazing world of <i> <a href="Introduction.html" target="_blank">contemporary art! </a> </i> <br> Here, you can learn and enjoy various
@@ -62,16 +78,19 @@
     <audio controls>
         <source src="bgm.mp3" type="audio/mpeg">
     </audio>
+    
+    </div>
+    
     <h2 class="heading2">Contemporary Art Genres</h2>
         <ul class="list">
             <li><a href="Impressionism/Impressionism.html" target="_blank">Impressionism</a></li>
             <li><a href="Neo-impressionism/Neo-impressionism.html" target="_blank">Neo-impressionism</a></li>
             <li><a href="Post-impressionism/Post-impressionism.html" target="_blank">Post-impressionism</a></li>
+            <li><a href="Fauvism/Fauvism.html" target="_blank">Fauvism</a></li>
             <li>Expressionism</li>
             <li>Cubism</li>
             <li>Futurism</li>
             <li>Abstractism</li>
-            <li>Fauvism</li>
             <li>Symbolism</li>
             <li>Primitivism</li>
             <li>Suprematism</li>
@@ -80,17 +99,17 @@
             <li>Surrealism</li>
         </ul>
     <hr>
-    <h3>Hey! You may also want to see some works created by Jerry CG!</h3>
-    <a href="Jerry CG's Works/Jerry CG's Contemporary Art.html" target="_blank"><button>Click me to see!</button></a>
+    <h3 class="margin">Hey! You may also want to see some works created by Jerry CG!</h3>
+    <a href="Jerry CG's Works/Jerry CG's Contemporary Art.html" target="_blank"><button class="margin">Click me to see!</button></a>
     <br>
     <br>
-        <img src="Home page picture 1.jpg" alt="picture 1" width=500 height=200>
+        <img src="Home page picture 1.jpg" alt="picture 1" width=500 height=200 class="margin">
     <hr>
      <p class="paragraph">Learning how to appreciate contemporary art is far more important
      than purely memorizing basic knowledge! See some Jerry CG's art appreciation comments!</p>
-     <a href="Jerry's Art Appreciation/Jerry CG's Contemporary Art Appreciation.html" target="_blank"><button>Click me to see!</button></a>
+     <a href="Jerry's Art Appreciation/Jerry CG's Contemporary Art Appreciation.html" target="_blank"><button class="margin">Click me to see!</button></a>
      <br>
      <br>
-     <img src="Home page picture 2.jpg" alt="picture 2" width=500 height=200>
+     <img src="Home page picture 2.jpg" alt="picture 2" width=500 height=200 class="margin">
 </body>
 </html>
