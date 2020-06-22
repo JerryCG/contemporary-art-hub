@@ -27,7 +27,7 @@
     img {vertical-align: middle;}
     
     .slideshow-container {
-    max-width: 600px;
+    max-width: 400px;
     position: relative;
     margin: 1rem;
     }
@@ -128,8 +128,80 @@
         <br>
         <li><a href="Fernand Leger/Fernand Leger.html" target="_blank">Fernand Leger (French, 1881-1955)</a></li>
         <br>
+        <li><a href="Juan Gris/Juan Gris.html" target="_blank">Juan Gris (Spanish, 1887-1927)</a></li>
     </ol>
     
+    <hr>
+    
+    <h2 class="margin">Cubism Artworks Slideshow</h2>
+    
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="Pablo Picasso/The Dream.jpg" style="width:100%">
+  <div class="text">The Dream</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="Pablo Picasso/Woman Dressing Her Hair.jpg" style="width:100%">
+  <div class="text">Woman Dressing Her Hair</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="Fernand Leger/The Constructors.jpg" style="width:100%">
+  <div class="text">The Constructors</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="Juan Gris/Flowers.jpg" style="width:100%">
+  <div class="text">Flowers</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="margin-left: 16.3rem ">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
     
 </body>
 </html>
