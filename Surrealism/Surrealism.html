@@ -27,7 +27,7 @@
     img {vertical-align: middle;}
     
     .slideshow-container {
-    max-width: 400px;
+    max-width: 500px;
     position: relative;
     margin: 1rem;
     }
@@ -136,7 +136,81 @@
         <li><a href="Salvador Dali/Salvador Dali.html" target="_blank">Salvador Dali (Spanish, 1904-1989)</a></li>
         <br>
         <li><a href="Rene Magritte/Rene Magritte.html" target="_blank">Rene Magritte (Belgian, 1898-1967)</a></li>
+        <br>
+        <li><a href="Joan Miro/Joan Miro.html" target="_blank">Joan Miro (Spanish, 1893-1983)</a></li>
      </ol>
      
+     <hr>
+    <h2 class="margin">Impressionism Artworks Slideshow</h2>
+    
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="Salvador Dali/The Persistence of Memory.jpg" style="width:100%">
+  <div class="text">The Persistence of Memory</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="Salvador Dali/Bacchanale.jpg" style="width:100%">
+  <div class="text">Bacchanale</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="Rene Magritte/The False Mirror.jpg" style="width:100%">
+  <div class="text">The False Mirror</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="Joan Miro/The Tilled Field.jpg" style="width:100%">
+  <div class="text">The Tilled Field</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="margin-left: 16.3rem ">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
 </body>
 </html>

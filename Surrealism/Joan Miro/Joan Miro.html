@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Joan Miro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        .heading1{
+            background-color: rgb(255,160,122);
+        }
+        
+        .heading2{
+            background-color: rgb(255,215,0);
+            font-family: candara;
+            border: 2px solid red;
+            
+        }
+        
+        body{
+            font-family: candara;
+            margin-left: 20px;
+        }
+        
+           /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+    </style>
+    
+</head>
+<body>
+    <h1 class="heading1"><u>Joan Miro</u> <sub>(Spanish, 1893-1983, Surrealism)</sub></h1>
+    <img src="Joan Miro.jpg" alt="Joan Miro" width=250 height=350>
+    <p>
+        <i><b>Joan Miro</b></i> is a famous Spanish painting, one of the greatest genius of Surrealism. He is a well-known almighty artist in the 20th
+        century. He initiated a series of subconscious symbols and became a representative of "<i id="myBtn"><u style="color: green">Organic Surrealism</u></i>". He was praised as "the most radical surrealist" by
+        Breton and Freud.
+    </p>
+    
+    <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Organic Surrealism</h1>
+                <p>Organic Surrealism is one of the two main poles in the surrealist movement in the visual arts.
+                It is characterized by automatist techniques, which its practitioners use in order to
+                liberate unconscious associations in order to allow their creative imaginations
+                to emerge in an open-ended manner.</p>
+                <p>The early work of some of the artists active in the Dada movement can be considered to fall into this category.
+                Organic surrealism was one of the major precursors to abstract expressionism.</p>
+                
+            </div>
+        
+        </div>
+        
+        <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+        
+        
+    <h2 class="heading2">Representative Works of Art</h2>
+    <ol>
+        <li><a href="The Farm.html" target="_blank"><i>The Farm</i></a></li>
+        <br>
+        <a href="The Farm.html" target="_blank">
+            <img src="The Farm.jpg" alt="The Farm" width=310 height=260>
+        </a>
+        <br>
+        <br>
+        <li><a href="The Tilled Field.html" target="_blank"><i>The Tilled Field</i></a></li>
+        <br>
+        <a href="The Tilled Field.html" target="_blank">
+            <img src="The Tilled Field.jpg" alt="The Tilled Field" width=340 height=235>
+        </a>
+        <br>
+        <br>
+        <li><a href="Harlequin's Carnival.html" target="_blank"><i>Harlequin's Carnival</i></a></li>
+        <br>
+        <a href="Harlequin's Carnival.html" target="_blank">
+            <img src="Harlequin's Carnival.jpg" alt="Harlequin's Carnival" width=345 height=230>
+        </a>
+        <br>
+        <br>
+        <li><a href="Catalan Landscape.html" target="_blank"><i>Catalan Landscape</i></a></li>
+        <br>
+        <a href="Catalan Landscape.html" target="_blank">
+            <img src="Catalan Landscape.jpg" alt="Catalan Landscape" width=345 height=230>
+        </a>
+        <br>
+        <br>
+        <li><a href="Dancer.html" target="_blank"><i>Dancer</i></a></li>
+        <br>
+        <a href="Dancer.html" target="_blank">
+            <img src="Dancer.jpg" alt="Dancer" width=250 height=340>
+        </a>
+    </ol>
+    
+    <h4> To other Surrealism Artists: </h4>
+         <a href="../Salvador Dali/Salvador Dali.html" target="_blank">Salvador Dali</a>
+         <br>
+         <br>
+         <a href="../Rene Magritte/Rene Magritte.html" target="_blank">Rene Magritte</a>
+    
+</body>
+</html>
