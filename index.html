@@ -17,34 +17,81 @@
             document.getElementById("hello").innerHTML= "Hello "+ name + "!";
         }
         
-        
-        
-        
     </script>
-    <style>
+    <style> 
+        
+        
+        
+        .column1{
+                float: left;
+                width: 25%;
+                min-width: 305px;
+                }
+
+        .column2{
+            float: left;
+            width: 65%;
+            min-width: 305px;
+        }
+        
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+                    }
+
+
         .heading1{
             color:deepskyblue;
             background-color: lemonchiffon;
             font-family: fantasy;
             font-size: 45px;
         }
+        
         .heading2{
             color:dodgerblue;
-            border-bottom: groove;
-            border-bottom-color: purple;
             font-family: candara;
-            margin-left: 15px;
+            border-bottom: dashed;
+            border-bottom-color: orange;
+            margin-left: 10px;
+            font-size: 26px;
         }
         
-        .pfont{
-            font-size: 16.5px;
+        .heading22{
+            color: red;
+            font-family: candara;
+            border-bottom: dashed;
+            border-bottom-color: orange;
+            margin-left: 10px;
+            font-size: 36px;
+            text-align: center;
+        }
+        .heading3{
+            color:orange;
+            border-bottom: dashed;
+            border-bottom-color: dodgerblue;
+            font-family: candara;
+            margin-left: 15px;
+            font-size: 35px;
+        }
+        
+        
+        .pfont1{
+            font-size: 20px;
+            font-family: candara;
+        }
+        
+        
+        .pfont2{
+            font-size: 23px;
             font-family: candara;
         }
         
         .paragraph{
             margin-left: 20px;
             font-family: candara;
-            font-size: 15px;
+            font-size: 20px;
         }
   
         
@@ -111,16 +158,134 @@
             
         }
         
-        .responsive {
+        .responsive{
             width: 85%;
             max-width: 500px;
             height: auto;
             margin-left: 20px;
             }
         
+        
+        
+        .responsive1{
+            width: 220px;
+            margin-left: 10px;
+        }
+        
+        .responsive2{
+            width: 220px;
+            vertical-align: -23px;
+            margin-left: 15px;
+        }
+        
+        .responsive3{
+            width: 200px;
+            vertical-align: -23px;
+            margin-left: 22px;
+        }
+        
+        .responsive4{
+            width: 210px;
+            vertical-align: -10px;
+            margin-left: 15px;
+        }
+        
+        .responsive5{
+            width: 170px;
+            vertical-align: -15px;
+            margin-left: 45px;
+        }
+        
+        .responsive6{
+            width: 290px;
+            vertical-align: -5px;
+            margin-left: 0px;
+        }
+        
         .audio{
             margin-left: 10px;
         }
+        
+        
+        .responsiveA{
+            width: 80%;
+            height: auto;
+            max-width: 230px;
+        }
+        
+        .responsiveB{
+            width: 60%;
+            height: auto;
+            max-width: 200px;
+            margin-left: 20px;
+            vertical-align: -24px;
+        }
+        
+        .responsiveC{
+            width: 65%;
+            height: auto;
+            max-width: 210px;
+            margin-left: 15px;
+            vertical-align: -25px;
+        }
+        
+        .responsiveD{
+            width: 70%;
+            height: auto;
+            max-width: 210px;
+            margin-left: 10px;
+            vertical-align: -20px;
+        }
+        
+        .responsiveE{
+            width: 70%;
+            height: auto;
+            max-width: 210px;
+            margin-left: 10px;
+            vertical-align: -28px;
+        }
+        
+        .responsiveF{
+            width: 75%;
+            height: auto;
+            max-width: 240px;
+            vertical-align: -22px;
+        }
+        
+        .responsiveG{
+            width: 75%;
+            height: auto;
+            max-width: 225px;
+            margin-left: 10px;
+            vertical-align: -28px;
+        }
+        
+        .responsiveH{
+            width: 75%;
+            height: auto;
+            max-width: 180px;
+            margin-left: 20px;
+            vertical-align: -25px;
+        }
+        
+        .responsiveI{
+            width: 75%;
+            height: auto;
+            max-width: 200px;
+            margin-left: 20px;
+            vertical-align: -30px;
+        }
+        
+        .responsiveJ{
+            width: 75%;
+            height: auto;
+            max-width: 183px;
+            margin-left: 25px;
+            vertical-align: -23px;
+        }
+        
+        
+        
     </style>
 </head>
 <body onload="init();" class="bodymargin">
@@ -130,45 +295,90 @@
     <span class="heading1" onclick="myclick();">Contemporary Art Hub</span><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Welcome.gif" width=210 height=65></span></div>
     
     <div class="margin">
-        <div class="pfont">
+        <div class="pfont1">
             <h1 id="hello"></h1>
             <p> Welcome to the amazing world of <i> <a href="Introduction.html" target="_blank">contemporary art! </a> </i> <br> Here, you can learn and enjoy various
             contemporary artworks and artists, which have important positions in history.</p>
             <p>Before our journey on this website, you may also
             want to have a test on your knowledge of contemporary art!</p>
             <p>Click <a href="Contemporary Art Quiz/Contemporary Art Quiz.html" target="_blank">here</a> to have the quiz!</p>
-    
         
         <p>Play the below soundtrack to relax yourself!</p>
         </div>
+    
     </div>
-    
-    <audio controls class="audio">
-        <source src="bgm.mp3" type="audio/mpeg">
-    </audio>
-    
-    
-    
-    <h2 class="heading2">Contemporary Art Genres</h2>
-        <ul class="pfont">
+
+        <audio controls class="audio">
+            <source src="bgm.mp3" type="audio/mpeg">
+        </audio>
+        
+        
+<div class="row">         
+    <div class="column1">
+        <br>
+        <h2 class="heading2">Contemporary Art Genres</h2>
+        <ul class="pfont2">
             <li><a href="Impressionism/Impressionism.html" target="_blank">Impressionism</a></li> 
             <li><a href="Neo-impressionism/Neo-impressionism.html" target="_blank">Neo-impressionism</a></li>
             <li><a href="Post-impressionism/Post-impressionism.html" target="_blank">Post-impressionism</a></li>
-            <li><a href="Fauvism/Fauvism.html" target="_blank">Fauvism</a></li>
+            <li><a href="Fauvism/Fauvism.html" target="_blank">Fauvism</a><br></li>
             <li><a href="Cubism/Cubism.html" target="_blank">Cubism</a></li>
             <li><a href="Surrealism/Surrealism.html" target="_blank">Surrealism</a></li>
             <li><a href="Expressionism/Expressionism.html" target="_blank">Expressionism</a></li>
             <li><a href="Minimalism/Minimalism.html" target="_blank">Minimalism</a></li>
             <li>Futurism</li>
-            <li>Abstractism</li>
-            <li>Symbolism</li>
-            <li>Primitivism</li>
             <li>Suprematism</li>
             <li>Dadaism</li>
+            <li>Symbolism</li>
+            <li>Primitivism</li>
             <li>Purism</li>
-            
-            
         </ul>
+    </div>
+    <div class="column2">
+        <h2 class="heading22">Masterpieces</h2>
+        <a href="Impressionism/Claude Monet/Impression, Sunrise.html" target="_blank">
+            <img src="Impression, Sunrise (index).png" alt="Impression, Sunrise" class="responsive1">
+        </a>
+        <a href="Neo-impressionism/Georges Seurat/A Sunday Afternoon on the Island of La Grande Jatte.html" target="_blank">
+            <img src="A Sunday Afternoon on the Island of La Grande Jatte (index).png" alt="A Sunday Afternoon on the Island of La Grande Jatte" class="responsive2">
+        </a>
+        &nbsp;
+        <a href="Post-impressionism/Vincent van Gogh/The Starry Night.html" target="_blank">
+            <img src="The Starry Night (index).png" alt="The Starry Night" class="responsive3">
+        </a>
+        <a href="Surrealism/Salvador Dali/The Persistence of Memory.html" target="_blank">
+            <img src="The Persistence of Memory (index).png" alt="The Persistence of Memory" class="responsive4">
+        </a>
+        <a href="Expressionism/Edvard Munch/The Scream.html" target="_blank">
+            <img src="The Scream (index).png" alt="The Scream" class="responsive5">
+        </a>
+        <a href="Cubism/Pablo Picasso/Guernica.html" target="_blank">
+            <img src="Guernica (index).png" alt="Guernica" class="responsive6">
+        </a>
+            
+    </div>
+</div>
+
+    <p class="heading3"><b>Famous Artists</b></p>
+    <a href="Post-impressionism/Vincent van Gogh/Vincent van Gogh.html" target="_blank"><img src="Vincent with text.png" alt="Vincent van Gogh" class="responsiveA"></a>
+    <a href="Cubism/Pablo Picasso/Pablo Picasso.html" target="_blank"><img src="Picasso with text.png" alt="Pablo Picasso" class="responsiveB"></a>
+    &nbsp;&nbsp;&nbsp;
+    <a href="Surrealism/Salvador Dali/Salvador Dali.html" target="_blank"><img src="Dali with text.png" alt="Salvador Dali" class="responsiveC"></a>
+    &nbsp;&nbsp;
+    <a href="Impressionism/Claude Monet/Claude Monet.html" target="_blank"><img src="Monet with text.png" alt="Claude Monet" class="responsiveD"></a>
+    &nbsp;
+    <a href="Expressionism/Edvard Munch/Edvard Munch.html" target="_blank"><img src="Munch with text.png" alt="Edvard Munch" class="responsiveE"></a>
+    &nbsp;&nbsp;
+    <a href="Surrealism/Rene Magritte/Rene Magritte.html" target="_blank"><img src="Magritte with text.png" alt="Rene Magritte" class="responsiveF"></a>
+    &nbsp;
+    <a href="Neo-impressionism/Georges Seurat/Georges Seurat.html" target="_blank"><img src="Seurat with text.png" alt="Georges Seurat" class="responsiveG"></a>
+    &nbsp;
+    <a href="Post-impressionism/Paul Gauguin/Paul Gauguin.html" target="_blank"><img src="Gauguin with text.png" alt="Paul Gauguin" class="responsiveH"></a>
+    &nbsp;
+    <a href="Post-impressionism/Paul Cezanne/Paul Cezanne.html" target="_blank"><img src="Cezanne with text.png" alt="Paul Zecanne" class="responsiveI"></a>
+    &nbsp;&nbsp;
+    <a href="Fauvism/Henri Matisse/Henri Matisse.html" target="_blank"><img src="Matisse with text.png" class="responsiveJ"></a>
+    
     <hr>
     &nbsp;&nbsp;<img src="Hey.gif" width=70 height=70><span class="work">&nbsp;You may also want to see some works created by Jerry CG!</span><br>
     <br>
