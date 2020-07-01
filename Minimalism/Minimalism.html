@@ -57,7 +57,7 @@
     }
     
     .text {
-        color: #f2f2f2;
+        color: white;
         font-size: 15px;
         padding: 8px 12px;
         position: absolute;
@@ -100,20 +100,30 @@
     
     .margin{
         margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
     }
     
     
     .responsive {
-            width: 85%;
+            width: 88%;
             max-width: 450px;
             height: auto;
+            margin-left: 20px;
             }
-            
+    
+    figure{
+        margin-left: 15px;
+        color: grey;
+        font-size: 15px;
+    }
+    
+    
     </style>
 </head>
 <body>
     <h1 class="heading1">Minimalism</h1>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Minimalism.png" alt="Minimalism" class="responsive">
+    <img src="Minimalism.png" alt="Minimalism" class="responsive">
     <p class="margin">
         In visual arts, music, and other mediums, <i><b>Minimalism</b></i> is an art movement that began in post-World War II Western art,
         most strongly with American visual arts in the 1960s and early 1970s. Prominent artists associated with minimalism include Donald Judd,
@@ -122,17 +132,105 @@
     </p>
     
     <p class="margin">
-        <i><b>Minimalism</b></i> in music often features repetition and gradual variation, such as the works of La Monte Young, Terry Riley, Steve Reich,
+        Minimalism in music often features repetition and gradual variation, such as the works of La Monte Young, Terry Riley, Steve Reich,
         Philip Glass, Julius Eastman, and John Adams. The term minimalist often colloquially refers to anything that is spare or stripped to its essentials.
         It has accordingly been used to describe the plays and novels of Samuel Beckett, the films of Robert Bresson, the stories of Raymond Carver, and
         the automobile designs of Colin Chapman.
     </p>
+    
+    <p class="margin">Enjoy one Minimalist music piece below!</p>
+    <figure>
+        <audio controls class="audio">
+            <source src="The Fifth Life by Circus Marcus.mp3" type="audio/mpeg">
+        </audio>
+        <figcaption><i>The Fifth Life by Circus Marcus</i></figcaption>
+    </figure>
+    
+    
+    
     
     <h2 class="heading2">Representative Artists</h2>
     <ol>
         <li><a href="Donald Judd/Donald Judd.html" target="_blank">Donald Judd (American, 1928-1994)</a></li>
         <br>
         <li><a href="Carl Andre/Carl Andre.html" target="_blank">Carl Andre (American, 1935- )</a></li>
+        <br>
+        <li><a href="Dan Flavin/Dan Flavin.html" target="_blank">Dan Flavin (1933-1996)</a></li>
     </ol>
+    
+    
+    <hr>
+    
+    <h2 style="margin-left: 20px;">Minimalism Artworks Slideshow</h2>
+    
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="Donald Judd/Marfa 2.jpg" style="width:100%">
+  <div class="text">Marfa Artwork</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="Carl Andre/Sculpture as Place, 1958-2010 (1).jpg" style="width:100%">
+  <div class="text">Sculpture as Place, 1958-2010</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="Carl Andre/Sculpture as Place, 1958-2010 (3).jpg" style="width:100%">
+  <div class="text">Sculpture as Place, 1958-2010</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="Dan Flavin/Dan Flavin A Retrospective 8.jpg" style="width:100%">
+  <div class="text">Dan Flavin: A Retrospective</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="margin-left: 16.3rem ">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
 </body>
 </html>
