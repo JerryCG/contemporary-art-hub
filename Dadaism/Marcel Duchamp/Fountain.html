@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Fountain</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <style>
+        .heading{
+            background-color: silver;
+        }
+        
+        body{
+            font-family: candara;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        
+        .responsive {
+            width: 100%;
+            max-width: 360px;
+            height: auto;
+            }
+        
+        
+                 /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+            
+    </style>
+</head>
+<body>
+    <h1 class="heading"><u>Fountain</u> <sub>(Marcel Duchamp, Dadaism)</sub></h1>
+    <img src="Fountain.jpg" alt="Fountain" class="responsive">
+    <p style="text-align: justify;">
+        <i><b>Fountain</b></i> is a <i id="myBtn"><u style="color: blue">readymade</u></i>
+        sculpture produced by Marcel Duchamp in 1917, consisting of a porcelain urinal signed "R.Mutt".
+        Of all the artworks in this series of readymades, Fountain is perhaps the best known because the symbolic meaning of the toilet takes
+        the conceptual challenge posed by the readymades to their most visceral extreme.
+    </p>
+    <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1><i>Readymades</i></h1>
+                <p>
+                    Existing objects taken from real life and modified or re-contextualized to function as works of art.
+                </p>
+                
+            </div>
+        
+        </div>
+        
+        <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+        <p style="text-align: justify;">
+            Duchamp purchased the urinal from a plumbing supplier at 118 Fifth Avenue, New York (J.L. Mott Ironwork Company).
+            By turning it on its side and placing it on a pedestal, he altered the viewer's perception of this familiar manufactured object.
+            With his signature, he undermined traditional notions of craftsmanship and authorship, and distorted conventional rules regarding the
+            value and definition of art. He also challenged the way art galleries and institutions deemed it their prerogative to decide what art was and was not.
+        </p>
+        
+        <a href="Marcel Duchamp.html"><h4>Back to the Artist <i>Marcel Duchamp</i></h4></a>
+        <h4>Duchamp's Other Works </h4>
+        <a href="Bicycle Wheel.html" target="_blank"><p>Bicycle Wheel</p></a>
+        <a href="LHOOQ.html" target="_blank"><p>LHOOQ</p></a>
+        <a href="Bottle Rack.html" target="_blank"><p>Bottle Rack</p></a>
+        <a href="Why Not Sneeze Rose Selavy.html" target="_blank"><p>Why Not Sneeze Rose Selavy?</p></a>
+        
+</body>
+</html>
