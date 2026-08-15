@@ -87,7 +87,9 @@ export default function HallPage() {
         <div className="mt-8 flex gap-5 overflow-x-auto pb-2">
           {plates.map((p) => (
             <Link key={p.name} href={p.href} className="w-32 shrink-0 sm:w-36">
-              <img src={p.src} alt={p.name} className="w-full bg-paper-deep object-contain" />
+              <div className="aspect-[2/3] overflow-hidden bg-paper-deep">
+                <img src={p.src} alt={p.name} className="h-full w-full object-contain object-center" />
+              </div>
             </Link>
           ))}
         </div>
