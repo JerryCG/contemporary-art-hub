@@ -1,0 +1,198 @@
+{
+  "fetchedAt": "2026-08-15T06:36:44.911Z",
+  "source": "Updated automatically",
+  "errors": [],
+  "shows": [
+    {
+      "title": "Current exhibitions",
+      "venue": "CHAT",
+      "city": "Hong Kong",
+      "region": "hong-kong",
+      "dates": "See the official list",
+      "why": "Heritage, arts and textile at The Mills.",
+      "href": "https://www.mill6chat.org/"
+    },
+    {
+      "title": "Art Basel Hong Kong 2027",
+      "venue": "HKCEC",
+      "city": "Hong Kong",
+      "region": "hong-kong",
+      "dates": "Next edition spring 2027",
+      "why": "Hong Kong’s main international art fair.",
+      "href": "https://www.artbasel.com/hong-kong",
+      "live": true
+    },
+    {
+      "title": "Current exhibitions",
+      "venue": "M+",
+      "city": "Hong Kong",
+      "region": "hong-kong",
+      "dates": "See the official list",
+      "why": "Hong Kong’s museum of visual culture.",
+      "href": "https://www.mplus.org.hk/en/exhibitions/"
+    },
+    {
+      "title": "Current programme",
+      "venue": "Para Site",
+      "city": "Hong Kong",
+      "region": "hong-kong",
+      "dates": "See the official list",
+      "why": "Independent contemporary space.",
+      "href": "https://www.para-site.art/"
+    },
+    {
+      "title": "Art programme",
+      "venue": "Tai Kwun Contemporary",
+      "city": "Hong Kong",
+      "region": "hong-kong",
+      "dates": "See the official list",
+      "why": "Exhibitions in the former Central Police Station.",
+      "href": "https://www.taikwun.hk/en/programme/index/art"
+    },
+    {
+      "title": "Exhibitions",
+      "venue": "National Gallery Singapore",
+      "city": "Singapore",
+      "region": "asia",
+      "dates": "See the official list",
+      "why": "Modern art in Southeast Asia.",
+      "href": "https://www.nationalgallery.sg/see-do/exhibitions"
+    },
+    {
+      "title": "Willem de Kooning Drawing",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "14 Jun 2026 – 20 Sept 2026",
+      "why": "Bringing together more than 200 artworks from around the world, this major exhibition is the first to examine Abstract Expressionist Willem de Kooning’s expansive drawing practice across his seven-decade career.",
+      "href": "https://www.artic.edu/exhibitions/9993/willem-de-kooning-drawing",
+      "live": true
+    },
+    {
+      "title": "Beyond Form: Abstraction at Midcentury",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "27 Jun 2026 – 19 Oct 2026",
+      "why": "Featuring 65 artists from more than 23 countries, this exhibition explores how abstraction emerged as a powerful visual language between 1940 and 1970, a period of global upheaval and transformation.",
+      "href": "https://www.artic.edu/exhibitions/10694/beyond-form-abstraction-at-midcentury",
+      "live": true
+    },
+    {
+      "title": "Self, Made: Fourteen Modern Artists from the Richard and Ellen Sandor Family Collection",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "25 Jun 2026 – 9 Nov 2026",
+      "why": "This exhibition tells stories of self-invention in photography, drawing, and sculpture, most of them from artists working beyond the gallery and museum system that typically validates creative work.",
+      "href": "https://www.artic.edu/exhibitions/10587/self-made-fourteen-modern-artists-from-the-richard-and-ellen-sandor-family-collection",
+      "live": true
+    },
+    {
+      "title": "The Floating World Emerges: Japanese Prints from the Clarence Buckingham Collection",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "24 Jun 2026 – 6 Sept 2026",
+      "why": "This presentation brings together about 40 \"pictures of the floating world\" prints, many given to the museum by a major collector and an early supporter of the Art Institute, Clarence Buckingham.",
+      "href": "https://www.artic.edu/exhibitions/10873/the-floating-world-emerges-japanese-prints-from-the-clarence-buckingham-collection",
+      "live": true
+    },
+    {
+      "title": "Edgar Calel: Corn Mountain of Life (Ixim Juyu K’aslem)",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "2 May 2026 – 13 Sept 2026",
+      "why": "Guatemala-born artist Edgar Calel brings elements of his Maya-Kaqchikel family and community to Chicago with an installation that merges practical needs and ceremonial meanings.",
+      "href": "https://www.artic.edu/exhibitions/10586/edgar-calel-corn-mountain-of-life-ixim-juyu-kaslem",
+      "live": true
+    },
+    {
+      "title": "Nora Turato: I hear you, I hear you.",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "22 May 2026 – 26 Aug 2026",
+      "why": "A rapid barrage of phrases common to self-improvement and personal and professional advancement, this profoundly disquieting video showcases the overwhelming glut of linguistic platitudes through which we must sift each ",
+      "href": "https://www.artic.edu/exhibitions/10917/nora-turato-i-hear-you-i-hear-you",
+      "live": true
+    },
+    {
+      "title": "Embroidered Traditions from Morocco to Afghanistan",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "2 May 2026 – 25 Jan 2027",
+      "why": "The first exhibition at the Art Institute devoted to the artistic and cultural traditions of SWANA, this exhibition highlights the region’s distinctive beauty and iconic visual expressions through more than 70 works from",
+      "href": "https://www.artic.edu/exhibitions/10585/embroidered-traditions-from-morocco-to-afghanistan",
+      "live": true
+    },
+    {
+      "title": "Abigail Lucien: Blood of the Earth",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "18 Jun 2026 – 25 Jan 2027",
+      "why": "In this immersive installation featuring a series of new sculptural objects, Haitian American artist Abigail Lucien explores the ways that iron connects us to histories, the material world, and each other.",
+      "href": "https://www.artic.edu/exhibitions/10693/abigail-lucien-blood-of-the-earth",
+      "live": true
+    },
+    {
+      "title": "Saint-Porchaire",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "25 Mar 2026 – 15 Nov 2026",
+      "why": "Experience the refined craftsmanship, luxurious playfulness, and enduring fascination of Saint Porchaire wares with this exceptional group of nine ceramics from a private collection—most on public view for the first time",
+      "href": "https://www.artic.edu/exhibitions/10601/saint-porchaire",
+      "live": true
+    },
+    {
+      "title": "Jitish Kallat: Public Notice 3",
+      "venue": "Art Institute of Chicago",
+      "city": "Chicago",
+      "region": "world",
+      "dates": "9 Sept 2024 – 14 Sept 2026",
+      "why": "Jitish Kallat’s site-specific installation, Public Notice 3, returns to the Art Institute of Chicago’s Grand Staircase this fall after a 14-year hiatus. ",
+      "href": "https://www.artic.edu/exhibitions/10453/jitish-kallat-public-notice-3-2",
+      "live": true
+    },
+    {
+      "title": "What’s on",
+      "venue": "MoMA",
+      "city": "New York",
+      "region": "world",
+      "dates": "See the official list",
+      "why": "The Museum of Modern Art calendar.",
+      "href": "https://www.moma.org/calendar/exhibitions"
+    },
+    {
+      "title": "Exhibitions",
+      "venue": "Musée d’Orsay",
+      "city": "Paris",
+      "region": "world",
+      "dates": "See the official list",
+      "why": "Impressionism and the late nineteenth century.",
+      "href": "https://www.musee-orsay.fr/en/whats-on/exhibitions"
+    },
+    {
+      "title": "What’s on",
+      "venue": "Tate Modern",
+      "city": "London",
+      "region": "world",
+      "dates": "See the official list",
+      "why": "Current exhibitions and the Turbine Hall.",
+      "href": "https://www.tate.org.uk/whats-on"
+    },
+    {
+      "title": "Explore online",
+      "venue": "Google Arts & Culture",
+      "city": "Online",
+      "region": "online",
+      "dates": "Always open",
+      "why": "Zoom into museum collections from anywhere.",
+      "href": "https://artsandculture.google.com/"
+    }
+  ]
+}

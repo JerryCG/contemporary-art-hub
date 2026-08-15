@@ -3,6 +3,8 @@ name: Deploy museum to GitHub Pages
 on:
   push:
     branches: [master]
+  schedule:
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,6 +26,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm run exhibitions
+        continue-on-error: true
       - run: npm run build:pages
         env:
           BASE_PATH: /contemporary-art-hub

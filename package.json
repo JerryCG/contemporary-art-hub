@@ -8,6 +8,7 @@
     "build:pages": "node scripts/build-static.mjs",
     "start": "next start",
     "extract": "node scripts/extract-original-content.mjs",
+    "exhibitions": "node scripts/fetch-exhibitions.mjs",
     "lint": "next lint"
   },
   "dependencies": {
