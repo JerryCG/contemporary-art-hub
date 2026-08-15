@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.static-hide
+.env
+.env.local
+.tools
+*.log
+plan.txt
+.DS_Store
+Thumbs.db

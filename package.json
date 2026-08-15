@@ -1,0 +1,30 @@
+{
+  "name": "contemporary-art-hub",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:pages": "node scripts/build-static.mjs",
+    "start": "next start",
+    "extract": "node scripts/extract-original-content.mjs",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.5.23",
+    "openai": "^7.4.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "autoprefixer": "^10.5.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.1",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f3eee4;
+  --ink: #1a1714;
+  --sky: #2f7dd1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-feature-settings: "ss01" on, "kern" on;
+}
+
+::selection {
+  background: #2f7dd1;
+  color: #faf6ee;
+}
+
+.grain {
+  position: relative;
+}
+.grain::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  opacity: 0.07;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .grain::before { display: none; }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.display {
+  font-family: var(--font-display), Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+.prose-hub p {
+  @apply text-[1.05rem] leading-[1.7] text-ink/90 text-pretty;
+}
+.prose-hub p + p {
+  @apply mt-4;
+}
+
+.frame {
+  @apply bg-paper-raised shadow-frame;
+  padding: 0.55rem;
+}
+
+.atm-impressionism { background: radial-gradient(1200px 600px at 20% 0%, #d7ecff 0%, transparent 50%), linear-gradient(180deg, #f6f1e4, #e7f0d8); }
+.atm-neo { background-image: radial-gradient(#2f7dd122 1.1px, transparent 1.1px); background-size: 10px 10px; background-color: #f3eee4; }
+.atm-post { background: radial-gradient(900px 500px at 80% 10%, #1d3557 0%, transparent 45%), #f3eee4; }
+.atm-symbolism { background: radial-gradient(800px 500px at 50% 0%, #5a189a33, transparent 55%), #f3eee4; }
+.atm-fauvism { background: conic-gradient(from 180deg at 10% 0%, #ffba0833, #e85d0433, #2a9d8f22, #ffba0833); }
+.atm-expressionism { background: linear-gradient(160deg, #fff3e0, #f3eee4 40%, #9b222614); }
+.atm-cubism { background: linear-gradient(135deg, #e9d8c5 0 25%, #f3eee4 25% 50%, #d6ccc2 50% 75%, #f3eee4 75%); background-size: 80px 80px; }
+.atm-futurism { background: repeating-linear-gradient(-28deg, #f3eee4, #f3eee4 18px, #d0000010 18px, #d0000010 20px); }
+.atm-primitivism { background: radial-gradient(600px 400px at 70% 20%, #40916c33, transparent), #f1ead8; }
+.atm-suprematism { background: #fafafa; }
+.atm-constructivism { background: linear-gradient(135deg, #f3eee4 60%, #c1121f14 60%), repeating-linear-gradient(90deg, transparent, transparent 40px, #11111108 40px, #11111108 41px); }
+.atm-dada { background: repeating-linear-gradient(4deg, #f3eee4, #f3eee4 28px, #11111108 28px, #11111108 29px); }
+.atm-purism { background: linear-gradient(#eef2f4, #f3eee4); }
+.atm-surrealism { background: radial-gradient(ellipse at 30% 0%, #3d348b22, transparent 50%), linear-gradient(#f3eee4, #e8e4f4); }
+.atm-abstract { background: radial-gradient(circle at 20% 30%, #4361ee22, transparent 40%), radial-gradient(circle at 80% 70%, #f7258522, transparent 40%), #f3eee4; }
+.atm-destijl { background: linear-gradient(#fafafa, #f3eee4); }
+.atm-abex { background: radial-gradient(1000px 400px at 50% -10%, #26465333, transparent), #efe8da; }
+.atm-pop { background-image: radial-gradient(#ff006e33 1.2px, transparent 1.2px); background-size: 12px 12px; background-color: #fff7ea; }
+.atm-minimalism { background: #f7f5f0; }
+.atm-conceptual { background: #f5f4f1; }
+.atm-after { background: linear-gradient(180deg, #0a0a0a08, #f3eee4 40%); }
+.atm-default { background: #f3eee4; }
+
+.nav-link {
+  @apply text-[13px] tracking-[0.14em] uppercase text-ink/70 hover:text-ink transition-colors;
+}
+
+.chip {
+  @apply inline-flex items-center rounded-full border border-ink/15 px-3 py-1 text-[11px] uppercase tracking-[0.16em] text-ink/60;
+}
