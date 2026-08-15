@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s · Contemporary Art Hub",
   },
   description:
-    "A personal museum for looking, making, and remembering. JerryCG’s contemporary art collection, rebuilt as a living museum-atelier.",
+    "A simple guide to contemporary art: movements, artists, a quiz, and a studio.",
   icons: { icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/heritage/logo-mark.png` },
 };
 

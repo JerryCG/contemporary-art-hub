@@ -8,7 +8,7 @@ import { SearchDialog } from "./SearchDialog";
 import { SoundToggle } from "./SoundToggle";
 
 const links = [
-  { href: "/", label: "Hall" },
+  { href: "/", label: "Home" },
   { href: "/rooms", label: "Rooms" },
   { href: "/timeline", label: "Timeline" },
   { href: "/play", label: "Play" },
@@ -22,7 +22,6 @@ const links = [
 export function Shell({ children }: { children: React.ReactNode }) {
   const path = usePathname();
   const [open, setOpen] = useState(false);
-  const [classic, setClassic] = useState(false);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -40,8 +39,8 @@ export function Shell({ children }: { children: React.ReactNode }) {
   }, []);
 
   return (
-    <div className={classic ? "classic-hub outline outline-[14px] outline-[#d4af37]" : ""}>
-      <header className="sticky top-0 z-30 border-b border-ink/10 bg-paper/80 backdrop-blur-md">
+    <div>
+      <header className="sticky top-0 z-30 border-b border-ink/10 bg-paper/85 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3 md:px-6">
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <img src={withBase("/images/heritage/logo-mark.png")} alt="" className="h-8 w-8" />
@@ -69,14 +68,6 @@ export function Shell({ children }: { children: React.ReactNode }) {
               Search <kbd className="ml-1 opacity-60">/</kbd>
             </button>
             <SoundToggle />
-            <button
-              type="button"
-              title="Classic Hub wink"
-              onClick={() => setClassic((v) => !v)}
-              className="hidden h-8 w-8 items-center justify-center rounded-full border border-ink/15 text-[11px] text-ink/50 sm:flex"
-            >
-              JG
-            </button>
           </div>
         </div>
         <nav className="flex gap-3 overflow-x-auto border-t border-ink/5 px-4 py-2 lg:hidden">
@@ -91,13 +82,12 @@ export function Shell({ children }: { children: React.ReactNode }) {
       <footer className="mt-24 border-t border-ink/10">
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-10 text-sm text-ink/60 md:flex-row md:items-end md:justify-between md:px-6">
           <div>
-            <p className="display text-xl text-ink">A personal museum for looking, making, and remembering.</p>
+            <p className="display text-xl text-ink">Contemporary Art Hub</p>
             <p className="mt-2 max-w-xl">
-              Original writing, works, and field notes by JerryCG. The 2026 rebuild keeps every original page in{" "}
-              <Link href="/archive" className="underline decoration-sky/50 underline-offset-4">
-                the archive
+              Collected and written by JerryCG.{" "}
+              <Link href="/archive" className="underline decoration-sky/40 underline-offset-4">
+                Original site
               </Link>
-              .
             </p>
           </div>
           <div className="flex gap-4">

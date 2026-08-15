@@ -44,8 +44,8 @@ export default async function RoomPage({ params }: { params: Promise<{ slug: str
       <section className="mx-auto max-w-3xl px-4 pb-10 md:px-6">
         <FloorTabs
           primer={<Prose paragraphs={m.paragraphs} />}
-          deeper={m.deeper ? <Prose paragraphs={m.deeper} /> : <p className="text-ink/50">This room is still hanging its second floor.</p>}
-          theory={m.theory ? <Prose paragraphs={m.theory} /> : <p className="text-ink/50">Theory notes coming.</p>}
+          deeper={m.deeper ? <Prose paragraphs={m.deeper} /> : <p className="text-ink/50">More to come.</p>}
+          theory={m.theory ? <Prose paragraphs={m.theory} /> : <p className="text-ink/50">More to come.</p>}
           looking={m.looking ? <ul className="list-disc space-y-3 pl-5 text-ink/80">{m.looking.map((l) => <li key={l}>{l}</li>)}</ul> : null}
         />
         {m.playHint && (
@@ -56,7 +56,7 @@ export default async function RoomPage({ params }: { params: Promise<{ slug: str
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-12 md:px-6">
-        <h2 className="display text-3xl">People in this room</h2>
+        <h2 className="display text-3xl">Artists</h2>
         <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           {artists.map((a) =>
             a ? (

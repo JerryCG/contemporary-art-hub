@@ -8,11 +8,8 @@ export const metadata: Metadata = { title: "Learn" };
 export default function LearnPage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 md:px-6">
-      <p className="chip">Curriculum</p>
-      <h1 className="display mt-4 text-5xl">Learn</h1>
-      <p className="mt-4 max-w-2xl text-lg text-ink/70">
-        Three walks, a glossary grown from the old Fountain modal, and a small library of places to look longer.
-      </p>
+      <h1 className="display text-5xl">Learn</h1>
+      <p className="mt-4 max-w-2xl text-lg text-ink/70">Guided paths, a short glossary, and links to go further.</p>
       <div className="mt-12 grid gap-6 md:grid-cols-3">
         {Object.values(paths).map((p) => (
           <Link key={p.slug} href={`/learn/${p.slug}`} className="border border-ink/10 p-6 hover:shadow-card">
@@ -36,7 +33,7 @@ export default function LearnPage() {
       </section>
 
       <section className="mt-20">
-        <h2 className="display text-3xl">Look longer — outbound library</h2>
+        <h2 className="display text-3xl">More to read</h2>
         {outbound.map((g) => (
           <div key={g.group} className="mt-8">
             <h3 className="text-[11px] uppercase tracking-[0.2em] text-ink/45">{g.group}</h3>

@@ -21,7 +21,7 @@ export const movementFloors: Record<
       "The science they borrowed (Chevreul, Rood) is less a formula than a license: complementary colors in shadow, optical mixture, the refusal of bitumen browns.",
       "What comes after is not a rejection so much as a complaint: if light is everything, what happens to structure (Cézanne), symbol (Gauguin), or the nervous system (van Gogh)?",
     ],
-    playHint: { href: "/play/compare", label: "Compare two lights" },
+    playHint: { href: "/play/compare", label: "Compare works" },
   },
   "neo-impressionism": {
     looking: [
@@ -36,7 +36,7 @@ export const movementFloors: Record<
       "Divisionism claims that luminosity is higher when the eye, not the palette, mixes color. Whether that is strictly true matters less than the ethic: painting as a laboratory.",
       "The anarchist friendships around Signac are not trivia. A ‘harmonious’ picture was, for them, a rehearsal of a harmonious society.",
     ],
-    playHint: { href: "/play/dots", label: "Place Seurat’s dots" },
+    playHint: { href: "/play/dots", label: "Try the dots" },
   },
   "post-impressionism": {
     looking: [
@@ -267,7 +267,7 @@ export const extraMovements: Movement[] = [
     looking: ["Listen to a Kandinsky. Then look at a Mondrian. Same century, opposite silences."],
     artistSlugs: ["wassily-kandinsky", "paul-klee"],
     slideshow: [],
-    playHint: { href: "/play/compass", label: "Find your weather" },
+    playHint: { href: "/play/compass", label: "Find a style" },
   },
   {
     slug: "de-stijl",

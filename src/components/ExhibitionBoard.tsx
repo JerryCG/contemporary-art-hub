@@ -8,7 +8,7 @@ const filters = ["all", "hong-kong", "asia", "world", "online"] as const;
 export function ExhibitionBoard() {
   const [shows, setShows] = useState<Show[]>(curatedShows);
   const [filter, setFilter] = useState<(typeof filters)[number]>("all");
-  const [note, setNote] = useState("Curated calendar");
+  const [note, setNote] = useState("");
 
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/api/exhibitions`)

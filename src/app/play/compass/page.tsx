@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const qs = [
   {
-    q: "What weather do you want today?",
+    q: "What mood do you want today?",
     opts: [
       { t: "Sun on water", r: "impressionism" },
       { t: "A storm in the chest", r: "expressionism" },
@@ -68,8 +68,8 @@ export default function CompassPage() {
 
   return (
     <div className="mx-auto max-w-xl px-4 py-16 md:px-6">
-      <p className="chip">Six questions</p>
-      <h1 className="display mt-4 text-5xl">Compass</h1>
+      <h1 className="display text-5xl">Compass</h1>
+      <p className="mt-3 text-ink/70">Six short questions. Then we suggest a room.</p>
       {!done ? (
         <div className="mt-10">
           <p className="text-xs uppercase tracking-widest text-ink/40">
@@ -94,10 +94,10 @@ export default function CompassPage() {
         </div>
       ) : (
         <div className="mt-10">
-          <p className="text-ink/60">Your weather today is the room called</p>
+          <p className="text-ink/60">A room that may fit:</p>
           <p className="display mt-2 text-5xl capitalize">{winner.replace(/-/g, " ")}</p>
           <Link href={`/rooms/${winner}`} className="mt-8 inline-block rounded-full bg-ink px-5 py-2 text-paper">
-            Walk in
+            Open
           </Link>
         </div>
       )}

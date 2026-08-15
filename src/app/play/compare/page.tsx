@@ -16,8 +16,8 @@ function CompareInner() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 md:px-6">
-      <p className="chip">Series thinking</p>
-      <h1 className="display mt-4 text-5xl">Two at Once</h1>
+      <h1 className="display text-5xl">Compare</h1>
+      <p className="mt-3 text-ink/70">Slide to compare two works.</p>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <select value={a} onChange={(e) => setA(e.target.value)} className="border border-ink/15 bg-paper px-3 py-2">
           {withImage.map((w) => (

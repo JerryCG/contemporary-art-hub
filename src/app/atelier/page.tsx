@@ -9,11 +9,8 @@ export default function AtelierPage() {
   const { xerox, soundMap, atlas, taikwun, fieldPhotos } = catalog.atelier;
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 md:px-6">
-      <p className="chip">JerryCG</p>
-      <h1 className="display mt-4 text-5xl">Atelier</h1>
-      <p className="mt-4 max-w-2xl text-lg text-ink/70">
-        The Hub is also a studio and a diary. These rooms were first-class on the original site. They still are.
-      </p>
+      <h1 className="display text-5xl">Atelier</h1>
+      <p className="mt-4 max-w-2xl text-lg text-ink/70">Works and notes by JerryCG.</p>
 
       <section id="xerox" className="mt-16">
         <h2 className="display text-4xl">Xerox Art</h2>

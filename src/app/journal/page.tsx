@@ -21,13 +21,12 @@ export default function JournalPage() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-16 md:px-6">
-      <p className="chip">Local only</p>
-      <h1 className="display mt-4 text-5xl">Journal</h1>
-      <p className="mt-4 text-ink/70">Pins, notes, and studio saves live in this browser. No account, no cloud.</p>
+      <h1 className="display text-5xl">Journal</h1>
+      <p className="mt-4 text-ink/70">Your pins and notes stay in this browser.</p>
 
       <section className="mt-12">
         <h2 className="display text-3xl">Pinned</h2>
-        {pins.length === 0 && <p className="mt-3 text-ink/50">Nothing pinned yet. Pin a work when it stops you.</p>}
+        {pins.length === 0 && <p className="mt-3 text-ink/50">Nothing pinned yet.</p>}
         <ul className="mt-4 space-y-2">
           {pins.map((p) => (
             <li key={p.kind + p.slug}>
@@ -50,7 +49,7 @@ export default function JournalPage() {
             setDraft("");
           }}
         >
-          <textarea value={draft} onChange={(e) => setDraft(e.target.value)} className="min-h-24 w-full border border-ink/15 bg-paper-raised p-3" placeholder="Write on the wall…" />
+          <textarea value={draft} onChange={(e) => setDraft(e.target.value)} className="min-h-24 w-full border border-ink/15 bg-paper-raised p-3" placeholder="A note…" />
           <button type="submit" className="mt-3 rounded-full bg-ink px-5 py-2 text-sm text-paper">
             Keep
           </button>

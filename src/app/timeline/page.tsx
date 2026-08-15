@@ -7,11 +7,8 @@ export const metadata: Metadata = { title: "Timeline" };
 export default function TimelinePage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 md:px-6">
-      <p className="chip">A corridor, not a chart</p>
-      <h1 className="display mt-4 text-5xl">Timeline</h1>
-      <p className="mt-4 max-w-2xl text-lg text-ink/70">
-        Walk the century. Each door is a room. Lines below sketch influence, not destiny.
-      </p>
+      <h1 className="display text-5xl">Timeline</h1>
+      <p className="mt-4 max-w-2xl text-lg text-ink/70">Major movements, in order.</p>
       <ol className="mt-14 space-y-0">
         {catalog.movements.map((m, i) => (
           <li key={m.slug} className="grid grid-cols-[5rem_1fr] gap-6 border-l border-ink/15 py-8 pl-8">
@@ -30,7 +27,7 @@ export default function TimelinePage() {
         ))}
       </ol>
       <section className="mt-10 border-t border-ink/10 pt-10">
-        <h2 className="display text-3xl">Influence, roughly</h2>
+        <h2 className="display text-3xl">How they connect</h2>
         <ul className="mt-6 columns-1 gap-8 text-sm text-ink/70 sm:columns-2">
           {influence.map(([from, to]) => {
             const a = catalog.movements.find((m) => m.slug === from);

@@ -8,11 +8,10 @@ export function DailyHanging() {
   if (!work) return null;
   return (
     <aside className="border border-ink/10 bg-paper-raised p-4">
-      <p className="text-[10px] uppercase tracking-[0.22em] text-ink/45">Today’s hanging</p>
+      <p className="text-[11px] uppercase tracking-[0.18em] text-ink/45">Today</p>
       <Link href={`/works/${work.slug}`} className="mt-3 block">
-        <img src={work.image!} alt={work.title} className="aspect-square w-full object-cover" />
+        <img src={work.image!} alt={work.title} className="aspect-[4/3] w-full object-cover" />
         <p className="display mt-3 text-xl leading-tight">{work.title}</p>
-        <p className="mt-1 text-sm text-ink/55">Stay with it longer than a scroll.</p>
       </Link>
     </aside>
   );

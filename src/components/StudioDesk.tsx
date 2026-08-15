@@ -84,8 +84,7 @@ export function StudioDesk({ movements }: { movements: { slug: string; title: st
       {err && <p className="mt-4 text-sm text-ink/70">{err}</p>}
       {url && <img src={url} alt="Studio result" className="frame mt-8 w-full" />}
       <p className="mt-6 text-xs text-ink/45">
-        This is play, not a forgery studio. Outputs are new pictures in a movement’s language. Add XAI_API_KEY to .env.local to
-        enable Imagine.
+        New pictures in a chosen style. Add XAI_API_KEY to .env.local to turn this on.
       </p>
     </div>
   );

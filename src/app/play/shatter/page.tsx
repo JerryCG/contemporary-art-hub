@@ -35,9 +35,8 @@ export default function ShatterPage() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-16 md:px-6">
-      <p className="chip">Several sides at once</p>
-      <h1 className="display mt-4 text-5xl">Shatter</h1>
-      <p className="mt-4 text-ink/70">Upload a photo. We facet it. Cubism as a toy, not a forgery.</p>
+      <h1 className="display text-5xl">Shatter</h1>
+      <p className="mt-4 text-ink/70">Upload a photo to break it into Cubist facets.</p>
       <input
         type="file"
         accept="image/*"

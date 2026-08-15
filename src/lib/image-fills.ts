@@ -81,4 +81,4 @@ export const movementHeroes: Record<string, string> = {
 };
 
 export const studyPlateNote =
-  "Hub study plate: a looking-aid in the language of the room, not a museum scan of the original object.";
+  "Study image.";
