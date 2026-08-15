@@ -51,8 +51,8 @@ try {
     BASE_PATH: basePath,
     NEXT_PUBLIC_BASE_PATH: basePath,
   };
-  const npmCmd = process.platform === "win32" ? "npx.cmd" : "npx";
-  const result = spawnSync(npmCmd, ["next", "build"], { cwd: ROOT, stdio: "inherit", env, shell: process.platform === "win32" });
+  const nextBin = path.join(ROOT, "node_modules", "next", "dist", "bin", "next");
+  const result = spawnSync(process.execPath, [nextBin, "build"], { cwd: ROOT, stdio: "inherit", env });
   if (result.status !== 0) process.exit(result.status ?? 1);
 
   const out = path.join(ROOT, "out");

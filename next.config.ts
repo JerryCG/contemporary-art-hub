@@ -8,16 +8,16 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  async rewrites() {
-    if (isStatic) return [];
-    return [
-      { source: "/original-site", destination: "/archive" },
-      { source: "/original-site/:path*", destination: "/archive/:path*" },
-    ];
-  },
 };
 
-if (isStatic) nextConfig.output = "export";
+if (isStatic) {
+  nextConfig.output = "export";
+} else {
+  nextConfig.rewrites = async () => [
+    { source: "/original-site", destination: "/archive" },
+    { source: "/original-site/:path*", destination: "/archive/:path*" },
+  ];
+}
 if (basePath) nextConfig.basePath = basePath;
 
 export default nextConfig;

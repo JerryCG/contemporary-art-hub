@@ -4,7 +4,15 @@ import { useMemo, useState } from "react";
 import { catalog } from "@/lib/content";
 import { ORIGINAL_QUIZ_ANSWERS } from "@/lib/quiz-answers";
 
-const scholar = [
+type QuizItem = {
+  prompt: string;
+  options: string[];
+  answer?: string;
+  image?: string | null;
+  audio?: string | null;
+};
+
+const scholar: QuizItem[] = [
   {
     prompt: "Who co-founded Cubism with Picasso — and is missing from the original Hub room?",
     options: ["Juan Gris", "Georges Braque", "Fernand Léger", "Jerry CG"],
@@ -35,7 +43,7 @@ const scholar = [
 export function QuizTheater() {
   const original = useMemo(
     () =>
-      catalog.quiz.questions.map((q, i) => ({
+      catalog.quiz.questions.map((q, i): QuizItem => ({
         prompt: q.prompt,
         options: q.options.map((o) => o.value),
         answer: ORIGINAL_QUIZ_ANSWERS[i],
@@ -91,8 +99,8 @@ export function QuizTheater() {
               <legend className="display text-2xl">
                 {i + 1}. {q.prompt}
               </legend>
-              {"image" in q && q.image && <img src={q.image as string} alt="" className="mt-4 max-h-56" />}
-              {"audio" in q && q.audio && <audio className="mt-4" controls src={q.audio as string} />}
+              {q.image ? <img src={q.image} alt="" className="mt-4 max-h-56" /> : null}
+              {q.audio ? <audio className="mt-4" controls src={q.audio} /> : null}
               <div className="mt-4 space-y-2">
                 {q.options.map((opt) => (
                   <label key={opt} className="flex cursor-pointer items-center gap-3 border border-transparent px-2 py-1 hover:border-ink/10">
