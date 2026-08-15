@@ -1,0 +1,17 @@
+$env:HTTP_PROXY="http://127.0.0.1:7897"
+$env:HTTPS_PROXY="http://127.0.0.1:7897"
+$env:ALL_PROXY="socks5://127.0.0.1:7897"
+cd D:\cheng\Projects\contemporary-art-hub
+
+This is my website to introduce the contemporary art to the general audience, also for my own study, collection and memory. 
+
+Now I want to extensively improve this website for better structure, appearance, funtionality, content coverage, and anything else that is worth improving. 
+
+You should feel free to be very bold in the design to help it become the best art website ever. Use your wild imagination and every possible technique to achive this goal.
+
+And please keep a copy (archive) of my original website docs, so that we can refer to them if necessary. Please arrange the project files in the most clean and sensible manner (currently they are a bit messy). 
+
+You should also expand the website content coverage, e.g., to include any missing genres/important artists I missed before. You should also improve my local images quality if you think the resolution is too low. Moreover, the current version is only introducotry. You can also design more advanced levels of contemporary art knowledge for more experienced audience. You can also add live exhibition information if possible. Be comprehensive, accesible, user-friendly, helpful to the most extent. You can put useful links to learn more about contemporary art on the website as well. And if possible, please involve the audience greatly, i.e., make the website more interactive, playful, enjoyable, full of fun, so the audience can fall in love with the contemporary art. If possible, you can also let the audience create their own artworks using one/several contemporary art styles; audience can also input some keywords, descriptions, their original photos (style transfer), etc. This would be very interesting!!! 
+
+In a nutshell, you are 100% free to elevate this webiste to the highest level from every possible aspect, yet please do keep my original contents there and arrange them in a much better structure. 
+
