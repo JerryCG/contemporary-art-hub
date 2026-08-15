@@ -1,0 +1,1290 @@
+[
+  {
+    "slug": "impression-sunrise",
+    "title": "Impression, Sunrise",
+    "artist": "Claude Monet",
+    "artistSlug": "claude-monet",
+    "image": "/images/works/impression-sunrise.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "a-sunday-afternoon-on-the-island-of-la-grande-jatte",
+    "title": "A Sunday Afternoon on the Island of La Grande Jatte",
+    "artist": "Georges Seurat",
+    "artistSlug": "georges-seurat",
+    "image": "/images/works/a-sunday-afternoon-on-the-island-of-la-grande-jatte.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-starry-night",
+    "title": "The Starry Night",
+    "artist": "Vincent van Gogh",
+    "artistSlug": "vincent-van-gogh",
+    "image": "/images/works/the-starry-night.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-persistence-of-memory",
+    "title": "The Persistence of Memory",
+    "artist": "Salvador Dali",
+    "artistSlug": "salvador-dali",
+    "image": "/images/works/the-persistence-of-memory.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-scream",
+    "title": "The Scream",
+    "artist": "Edvard Munch",
+    "artistSlug": "edvard-munch",
+    "image": "/images/works/the-scream.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "guernica",
+    "title": "Guernica",
+    "artist": "Pablo Picasso",
+    "artistSlug": "pablo-picasso",
+    "image": "/images/works/guernica.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "a-bar-at-the-folies-bergere",
+    "title": "A Bar at the Folies-Bergere",
+    "artist": "Edouard Manet",
+    "artistSlug": "edouard-manet",
+    "image": "/images/works/a-bar-at-the-folies-bergere.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "a-young-girl-running-on-a-balcony",
+    "title": "A Young Girl Running on a Balcony",
+    "artist": "Giacomo Balla",
+    "artistSlug": "giacomo-balla",
+    "image": "/images/works/a-young-girl-running-on-a-balcony.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "abstract-speed-sound",
+    "title": "Abstract Speed + Sound",
+    "artist": "Giacomo Balla",
+    "artistSlug": "giacomo-balla",
+    "image": "/images/works/abstract-speed-sound.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "andre-derain",
+    "title": "Andre Derain",
+    "artist": "Henri Matisse",
+    "artistSlug": "henri-matisse",
+    "image": "/images/works/andre-derain.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "anxiety",
+    "title": "Anxiety",
+    "artist": "Edvard Munch",
+    "artistSlug": "edvard-munch",
+    "image": "/images/works/anxiety.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "apparition-of-face-and-fruit-dish-on-a-beach",
+    "title": "Apparition of Face and Fruit Dish on a Beach",
+    "artist": "Salvador Dali",
+    "artistSlug": "salvador-dali",
+    "image": "/images/works/apparition-of-face-and-fruit-dish-on-a-beach.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "armored-train-in-action",
+    "title": "Armored Train in Action",
+    "artist": "Gino Severini",
+    "artistSlug": "gino-severini",
+    "image": "/images/works/armored-train-in-action.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "art-work-in-marfa-texas",
+    "title": "Art Work in Marfa, Texas",
+    "artist": "Donald Judd",
+    "artistSlug": "donald-judd",
+    "image": "/images/works/art-work-in-marfa-texas.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "alexander-rodchenko-artworks-collection",
+    "title": "Artworks Collection",
+    "artist": "Alexander Rodchenko",
+    "artistSlug": "alexander-rodchenko",
+    "image": "/images/works/alexander-rodchenko-artworks-collection.jpg",
+    "kind": "collection"
+  },
+  {
+    "slug": "siegfried-l-kratochwil-artworks-collection",
+    "title": "Artworks Collection",
+    "artist": "Siegfried L. Kratochwil",
+    "artistSlug": "siegfried-l-kratochwil",
+    "image": "/images/works/siegfried-l-kratochwil-artworks-collection.jpg",
+    "kind": "collection"
+  },
+  {
+    "slug": "teofil-ociepka-artworks-collection",
+    "title": "Artworks Collection",
+    "artist": "Teofil Ociepka",
+    "artistSlug": "teofil-ociepka",
+    "image": "/images/works/teofil-ociepka-artworks-collection.jpeg",
+    "kind": "collection"
+  },
+  {
+    "slug": "nikolai-suetin-artworks-collection-and-bio",
+    "title": "Artworks Collection and Bio",
+    "artist": "Nikolai Suetin",
+    "artistSlug": "nikolai-suetin",
+    "image": "/images/works/nikolai-suetin-artworks-collection-and-bio.jpg",
+    "kind": "collection"
+  },
+  {
+    "slug": "bacchanale",
+    "title": "Bacchanale",
+    "artist": "Salvador Dali",
+    "artistSlug": "salvador-dali",
+    "image": "/images/works/bacchanale.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "ballet-dancer-on-the-stage",
+    "title": "Ballet Dancer on the Stage",
+    "artist": "Edgar Degas",
+    "artistSlug": "edgar-degas",
+    "image": "/images/works/ballet-dancer-on-the-stage.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "barge-on-the-seine-near-le-pecq",
+    "title": "Barge on the Seine near Le Pecq",
+    "artist": "Maurice de Vlaminck (French, 1876-1958, Fauvism)",
+    "artistSlug": "maurice-de-vlaminck",
+    "image": "/images/works/barge-on-the-seine-near-le-pecq.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "beat-the-whites-with-the-red-wedge",
+    "title": "Beat the Whites with the Red Wedge",
+    "artist": "El Lissitzky",
+    "artistSlug": "el-lissitzky",
+    "image": "/images/works/beat-the-whites-with-the-red-wedge.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "bicycle-wheel",
+    "title": "Bicycle Wheel",
+    "artist": "Marcel Duchamp",
+    "artistSlug": "marcel-duchamp",
+    "image": "/images/works/bicycle-wheel.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "black-and-white",
+    "title": "Black and White",
+    "artist": "Man Ray",
+    "artistSlug": "man-ray",
+    "image": "/images/works/black-and-white.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "black-square",
+    "title": "Black Square",
+    "artist": "Kazimir Malevich",
+    "artistSlug": "kazimir-malevich",
+    "image": "/images/works/black-square.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "black-square-and-red-square",
+    "title": "Black Square and Red Square",
+    "artist": "Kazimir Malevich",
+    "artistSlug": "kazimir-malevich",
+    "image": "/images/works/black-square-and-red-square.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "bottle-rack",
+    "title": "Bottle Rack",
+    "artist": "Marcel Duchamp",
+    "artistSlug": "marcel-duchamp",
+    "image": "/images/works/bottle-rack.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "boy-on-the-rocks",
+    "title": "Boy on the Rocks",
+    "artist": "Henri Rousseau",
+    "artistSlug": "henri-rousseau",
+    "image": "/images/works/boy-on-the-rocks.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "capo-di-noli",
+    "title": "Capo di Noli",
+    "artist": "Paul Signac",
+    "artistSlug": "paul-signac",
+    "image": "/images/works/capo-di-noli.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "carnival-evening",
+    "title": "Carnival Evening",
+    "artist": "Henri Rousseau",
+    "artistSlug": "henri-rousseau",
+    "image": "/images/works/carnival-evening.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "catalan-landscape",
+    "title": "Catalan Landscape",
+    "artist": "Joan Miro",
+    "artistSlug": "joan-miro",
+    "image": "/images/works/catalan-landscape.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "child-and-large-bird",
+    "title": "Child and Large Bird",
+    "artist": "Emil Nolde",
+    "artistSlug": "emil-nolde",
+    "image": "/images/works/child-and-large-bird.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "collage-with-squares-arranged-according-to-the-laws-of-chance",
+    "title": "Collage with Squares Arranged According to the Laws of Chance",
+    "artist": "Jean Arp",
+    "artistSlug": "jean-arp",
+    "image": "/images/works/collage-with-squares-arranged-according-to-the-laws-of-chance.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "construction-no-95",
+    "title": "Construction No.95",
+    "artist": "Alexander Rodchenko",
+    "artistSlug": "alexander-rodchenko",
+    "image": "/images/works/construction-no-95.jpeg",
+    "kind": "work"
+  },
+  {
+    "slug": "dan-flavin-a-retrospective-dan-flavin-minimalism",
+    "title": "Dan Flavin: A Retrospective (Dan Flavin, Minimalism)",
+    "artist": "Dan Flavin",
+    "artistSlug": "dan-flavin",
+    "image": "/images/works/dan-flavin-a-retrospective-dan-flavin-minimalism.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "dancer",
+    "title": "Dancer",
+    "artist": "Joan Miro",
+    "artistSlug": "joan-miro",
+    "image": "/images/works/dancer.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "dancer-at-pigalle",
+    "title": "Dancer at Pigalle",
+    "artist": "Gino Severini",
+    "artistSlug": "gino-severini",
+    "image": "/images/works/dancer-at-pigalle.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "dynamic-hieroglyph-of-the-bal-tabarin",
+    "title": "Dynamic Hieroglyph of the Bal Tabarin",
+    "artist": "Gino Severini",
+    "artistSlug": "gino-severini",
+    "image": "/images/works/dynamic-hieroglyph-of-the-bal-tabarin.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "dynamism-of-a-cyclist",
+    "title": "Dynamism of a Cyclist",
+    "artist": "Umberto Boccioni",
+    "artistSlug": "umberto-boccioni",
+    "image": "/images/works/dynamism-of-a-cyclist.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "dynamism-of-a-dog-on-a-leash",
+    "title": "Dynamism of a Dog on a Leash",
+    "artist": "Giacomo Balla",
+    "artistSlug": "giacomo-balla",
+    "image": "/images/works/dynamism-of-a-dog-on-a-leash.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "effect-of-sun-on-the-water",
+    "title": "Effect of Sun on the Water",
+    "artist": "Andre Derain",
+    "artistSlug": "andre-derain",
+    "image": "/images/works/effect-of-sun-on-the-water.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "evening-on-karl-johan-street",
+    "title": "Evening on Karl Johan Street",
+    "artist": "Edvard Munch",
+    "artistSlug": "edvard-munch",
+    "image": "/images/works/evening-on-karl-johan-street.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "factory-at-horto-de-ebro",
+    "title": "Factory at Horto de Ebro",
+    "artist": "Pablo Picasso",
+    "artistSlug": "pablo-picasso",
+    "image": "/images/works/factory-at-horto-de-ebro.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "festival-of-gods",
+    "title": "Festival of Gods",
+    "artist": "Paul Gauguin",
+    "artistSlug": "paul-gauguin",
+    "image": "/images/works/festival-of-gods.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "flowers",
+    "title": "Flowers",
+    "artist": "Juan Gris",
+    "artistSlug": "juan-gris",
+    "image": "/images/works/flowers.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "fountain",
+    "title": "Fountain",
+    "artist": "Marcel Duchamp",
+    "artistSlug": "marcel-duchamp",
+    "image": "/images/works/fountain.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "girl-with-mandolin",
+    "title": "Girl with Mandolin",
+    "artist": "Pablo Picasso",
+    "artistSlug": "pablo-picasso",
+    "image": "/images/works/girl-with-mandolin.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "girls-on-the-bridge",
+    "title": "Girls on the Bridge",
+    "artist": "Edvard Munch",
+    "artistSlug": "edvard-munch",
+    "image": "/images/works/girls-on-the-bridge.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "glass-tears",
+    "title": "Glass Tears",
+    "artist": "Man Ray",
+    "artistSlug": "man-ray",
+    "image": "/images/works/glass-tears.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "golconda",
+    "title": "Golconda",
+    "artist": "Rene Magritte",
+    "artistSlug": "rene-magritte",
+    "image": "/images/works/golconda.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "harlequins-carnival",
+    "title": "Harlequin's Carnival",
+    "artist": "Joan Miro",
+    "artistSlug": "joan-miro",
+    "image": "/images/works/harlequins-carnival.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "haystacks-series",
+    "title": "Haystacks series",
+    "artist": "Claude Monet",
+    "artistSlug": "claude-monet",
+    "image": "/images/works/haystacks-series.jpg",
+    "kind": "series"
+  },
+  {
+    "slug": "houses-at-chatou",
+    "title": "Houses at Chatou",
+    "artist": "Maurice de Vlaminck (French, 1876-1958, Fauvism)",
+    "artistSlug": "maurice-de-vlaminck",
+    "image": "/images/works/houses-at-chatou.png",
+    "kind": "work"
+  },
+  {
+    "slug": "houses-of-parliament-series",
+    "title": "Houses of Parliament series",
+    "artist": "Claude Monet",
+    "artistSlug": "claude-monet",
+    "image": "/images/works/houses-of-parliament-series.jpg",
+    "kind": "series"
+  },
+  {
+    "slug": "joy-of-life",
+    "title": "Joy of Life",
+    "artist": "Henri Matisse",
+    "artistSlug": "henri-matisse",
+    "image": "/images/works/joy-of-life.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "l-h-o-o-q",
+    "title": "L.H.O.O.Q.",
+    "artist": "Marcel Duchamp",
+    "artistSlug": "marcel-duchamp",
+    "image": "/images/works/l-h-o-o-q.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "latelier-rouge",
+    "title": "L'Atelier Rouge",
+    "artist": "Henri Matisse",
+    "artistSlug": "henri-matisse",
+    "image": "/images/works/latelier-rouge.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "landscape-with-houses-at-ceret",
+    "title": "Landscape with Houses at Ceret",
+    "artist": "Juan Gris",
+    "artistSlug": "juan-gris",
+    "image": "/images/works/landscape-with-houses-at-ceret.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "les-demoiselles-davignon",
+    "title": "Les Demoiselles d'Avignon",
+    "artist": "Pablo Picasso",
+    "artistSlug": "pablo-picasso",
+    "image": "/images/works/les-demoiselles-davignon.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "love-and-pain",
+    "title": "Love and Pain",
+    "artist": "Edvard Munch",
+    "artistSlug": "edvard-munch",
+    "image": "/images/works/love-and-pain.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "mask-still-life-iii",
+    "title": "Mask Still Life III",
+    "artist": "Emil Nolde",
+    "artistSlug": "emil-nolde",
+    "image": "/images/works/mask-still-life-iii.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "materia",
+    "title": "Materia",
+    "artist": "Umberto Boccioni",
+    "artistSlug": "umberto-boccioni",
+    "image": "/images/works/materia.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "mercury-passing-before-the-sun",
+    "title": "Mercury Passing Before the Sun",
+    "artist": "Giacomo Balla",
+    "artistSlug": "giacomo-balla",
+    "image": "/images/works/mercury-passing-before-the-sun.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "metamorphosis-of-narcissus",
+    "title": "Metamorphosis of Narcissus",
+    "artist": "Salvador Dali",
+    "artistSlug": "salvador-dali",
+    "image": "/images/works/metamorphosis-of-narcissus.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "models",
+    "title": "Models",
+    "artist": "Georges Seurat",
+    "artistSlug": "georges-seurat",
+    "image": "/images/works/models.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "mont-sainte-victoire-with-large-pine",
+    "title": "Mont Sainte-Victoire with Large Pine",
+    "artist": "Paul Cezanne",
+    "artistSlug": "paul-cezanne",
+    "image": "/images/works/mont-sainte-victoire-with-large-pine.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "mountains-at-collioure",
+    "title": "Mountains at Collioure",
+    "artist": "Andre Derain",
+    "artistSlug": "andre-derain",
+    "image": "/images/works/mountains-at-collioure.png",
+    "kind": "work"
+  },
+  {
+    "slug": "nude-in-the-sun",
+    "title": "Nude in the Sun",
+    "artist": "Pierre-Auguste Renoir",
+    "artistSlug": "pierre-auguste-renoir",
+    "image": "/images/works/nude-in-the-sun.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "olympia",
+    "title": "Olympia",
+    "artist": "Edouard Manet",
+    "artistSlug": "edouard-manet",
+    "image": "/images/works/olympia.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "open-window",
+    "title": "Open Window",
+    "artist": "Henri Matisse",
+    "artistSlug": "henri-matisse",
+    "image": "/images/works/open-window.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "pentecost",
+    "title": "Pentecost",
+    "artist": "Emil Nolde",
+    "artistSlug": "emil-nolde",
+    "image": "/images/works/pentecost.png",
+    "kind": "work"
+  },
+  {
+    "slug": "portrait-of-pablo-picasso",
+    "title": "Portrait of Pablo Picasso",
+    "artist": "Juan Gris",
+    "artistSlug": "juan-gris",
+    "image": "/images/works/portrait-of-pablo-picasso.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "portrait-of-wally",
+    "title": "Portrait of Wally",
+    "artist": "Egon Schiele",
+    "artistSlug": "egon-schiele",
+    "image": "/images/works/portrait-of-wally.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "preliminary-sketch-for-a-poster",
+    "title": "Preliminary Sketch for a Poster",
+    "artist": "El Lissitzky",
+    "artistSlug": "el-lissitzky",
+    "image": "/images/works/preliminary-sketch-for-a-poster.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "proun-99",
+    "title": "Proun 99",
+    "artist": "El Lissitzky",
+    "artistSlug": "el-lissitzky",
+    "image": "/images/works/proun-99.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "pyramid-of-skulls",
+    "title": "Pyramid of Skulls",
+    "artist": "Paul Cezanne",
+    "artistSlug": "paul-cezanne",
+    "image": "/images/works/pyramid-of-skulls.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "rape",
+    "title": "Rape",
+    "artist": "Rene Magritte",
+    "artistSlug": "rene-magritte",
+    "image": "/images/works/rape.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "rehearsal",
+    "title": "Rehearsal",
+    "artist": "Edgar Degas",
+    "artistSlug": "edgar-degas",
+    "image": "/images/works/rehearsal.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "restaurant-la-machine-at-bougival",
+    "title": "Restaurant La Machine at Bougival",
+    "artist": "Maurice de Vlaminck (French, 1876-1958, Fauvism)",
+    "artistSlug": "maurice-de-vlaminck",
+    "image": "/images/works/restaurant-la-machine-at-bougival.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "rouen-cathedral-series",
+    "title": "Rouen Cathedral series",
+    "artist": "Claude Monet",
+    "artistSlug": "claude-monet",
+    "image": "/images/works/rouen-cathedral-series.jpg",
+    "kind": "series"
+  },
+  {
+    "slug": "sculpture-as-place-1958-2010",
+    "title": "Sculpture as Place, 1958-2010",
+    "artist": "Carl Andre",
+    "artistSlug": "carl-andre",
+    "image": "/images/works/sculpture-as-place-1958-2010.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "sculpture-to-be-lost-in-the-forest",
+    "title": "Sculpture to be Lost in the Forest",
+    "artist": "Jean Arp",
+    "artistSlug": "jean-arp",
+    "image": "/images/works/sculpture-to-be-lost-in-the-forest.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "self-portrait-with-chinese-lantern-plant",
+    "title": "Self-Portrait with Chinese Lantern Plant",
+    "artist": "Egon Schiele",
+    "artistSlug": "egon-schiele",
+    "image": "/images/works/self-portrait-with-chinese-lantern-plant.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "shirt-front-and-fork",
+    "title": "Shirt Front and Fork",
+    "artist": "Jean Arp",
+    "artistSlug": "jean-arp",
+    "image": "/images/works/shirt-front-and-fork.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "sketch-series",
+    "title": "sketch series",
+    "artist": "Georges Seurat",
+    "artistSlug": "georges-seurat",
+    "image": "/images/works/sketch-series.jpg",
+    "kind": "series"
+  },
+  {
+    "slug": "sleep",
+    "title": "Sleep",
+    "artist": "Salvador Dali",
+    "artistSlug": "salvador-dali",
+    "image": "/images/works/sleep.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "small-tree-in-late-autumn",
+    "title": "Small Tree in Late Autumn",
+    "artist": "Egon Schiele",
+    "artistSlug": "egon-schiele",
+    "image": "/images/works/small-tree-in-late-autumn.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "snowstorm",
+    "title": "Snowstorm",
+    "artist": "Maurice de Vlaminck (French, 1876-1958, Fauvism)",
+    "artistSlug": "maurice-de-vlaminck",
+    "image": "/images/works/snowstorm.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "still-life-series",
+    "title": "still life series",
+    "artist": "Paul Cezanne",
+    "artistSlug": "paul-cezanne",
+    "image": "/images/works/still-life-series.jpg",
+    "kind": "series"
+  },
+  {
+    "slug": "still-life-with-checked-tablecloth",
+    "title": "Still Life with Checked Tablecloth",
+    "artist": "Juan Gris",
+    "artistSlug": "juan-gris",
+    "image": "/images/works/still-life-with-checked-tablecloth.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "stormy-sea",
+    "title": "Stormy Sea",
+    "artist": "Emil Nolde",
+    "artistSlug": "emil-nolde",
+    "image": "/images/works/stormy-sea.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "street-light",
+    "title": "Street Light",
+    "artist": "Giacomo Balla",
+    "artistSlug": "giacomo-balla",
+    "image": "/images/works/street-light.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "sunflowers-series",
+    "title": "Sunflowers series",
+    "artist": "Vincent van Gogh",
+    "artistSlug": "vincent-van-gogh",
+    "image": "/images/works/sunflowers-series.jpg",
+    "kind": "series"
+  },
+  {
+    "slug": "suprematism",
+    "title": "Suprematism",
+    "artist": "Nikolai Suetin",
+    "artistSlug": "nikolai-suetin",
+    "image": "/images/works/suprematism.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "suprematist-composition",
+    "title": "Suprematist Composition",
+    "artist": "Kazimir Malevich",
+    "artistSlug": "kazimir-malevich",
+    "image": "/images/works/suprematist-composition.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "suprematist-surface-forms",
+    "title": "Suprematist Surface Forms",
+    "artist": "Nikolai Suetin",
+    "artistSlug": "nikolai-suetin",
+    "image": "/images/works/suprematist-surface-forms.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-absinthe-drinker",
+    "title": "The Absinthe Drinker",
+    "artist": "Edgar Degas",
+    "artistSlug": "edgar-degas",
+    "image": "/images/works/the-absinthe-drinker.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-balcony",
+    "title": "The Balcony",
+    "artist": "Edouard Manet",
+    "artistSlug": "edouard-manet",
+    "image": "/images/works/the-balcony.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-ballet-class",
+    "title": "The Ballet Class",
+    "artist": "Edgar Degas",
+    "artistSlug": "edgar-degas",
+    "image": "/images/works/the-ballet-class.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-bathers-paul-cezanne-post-impressionism",
+    "title": "The Bathers (Paul Cezanne, Post-impressionism)",
+    "artist": "Paul Cezanne",
+    "artistSlug": "paul-cezanne",
+    "image": "/images/works/the-bathers-paul-cezanne-post-impressionism.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-blank-signature",
+    "title": "The Blank Signature",
+    "artist": "Rene Magritte",
+    "artistSlug": "rene-magritte",
+    "image": "/images/works/the-blank-signature.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-bridge",
+    "title": "The Bridge",
+    "artist": "Egon Schiele",
+    "artistSlug": "egon-schiele",
+    "image": "/images/works/the-bridge.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-card-players",
+    "title": "The Card Players",
+    "artist": "Paul Cezanne",
+    "artistSlug": "paul-cezanne",
+    "image": "/images/works/the-card-players.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-circus",
+    "title": "The Circus",
+    "artist": "Georges Seurat",
+    "artistSlug": "georges-seurat",
+    "image": "/images/works/the-circus.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-city",
+    "title": "The City",
+    "artist": "Fernand Leger",
+    "artistSlug": "fernand-leger",
+    "image": "/images/works/the-city.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-city-rises",
+    "title": "The City Rises",
+    "artist": "Umberto Boccioni",
+    "artistSlug": "umberto-boccioni",
+    "image": "/images/works/the-city-rises.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-constructors",
+    "title": "The Constructors",
+    "artist": "Fernand Leger",
+    "artistSlug": "fernand-leger",
+    "image": "/images/works/the-constructors.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-dance",
+    "title": "The Dance",
+    "artist": "Henri Matisse",
+    "artistSlug": "henri-matisse",
+    "image": "/images/works/the-dance.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-dance-of-life",
+    "title": "The Dance of Life",
+    "artist": "Edvard Munch",
+    "artistSlug": "edvard-munch",
+    "image": "/images/works/the-dance-of-life.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-dessert-harmony-in-red",
+    "title": "The Dessert: Harmony in Red",
+    "artist": "Henri Matisse",
+    "artistSlug": "henri-matisse",
+    "image": "/images/works/the-dessert-harmony-in-red.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-disintegration-of-the-persistence-of-memory",
+    "title": "The Disintegration of the Persistence of Memory",
+    "artist": "Salvador Dali",
+    "artistSlug": "salvador-dali",
+    "image": "/images/works/the-disintegration-of-the-persistence-of-memory.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-dream",
+    "title": "The Dream",
+    "artist": "Pablo Picasso",
+    "artistSlug": "pablo-picasso",
+    "image": "/images/works/the-dream.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "henri-rousseau-the-dream",
+    "title": "The Dream",
+    "artist": "Henri Rousseau",
+    "artistSlug": "henri-rousseau",
+    "image": "/images/works/henri-rousseau-the-dream.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-embrace",
+    "title": "The Embrace",
+    "artist": "Egon Schiele",
+    "artistSlug": "egon-schiele",
+    "image": "/images/works/the-embrace.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-enigma-of-isidore-ducasse",
+    "title": "The Enigma of Isidore Ducasse",
+    "artist": "Man Ray",
+    "artistSlug": "man-ray",
+    "image": "/images/works/the-enigma-of-isidore-ducasse.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-false-mirror",
+    "title": "The False Mirror",
+    "artist": "Rene Magritte",
+    "artistSlug": "rene-magritte",
+    "image": "/images/works/the-false-mirror.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-farm",
+    "title": "The Farm",
+    "artist": "Joan Miro",
+    "artistSlug": "joan-miro",
+    "image": "/images/works/the-farm.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-gift",
+    "title": "The Gift",
+    "artist": "Man Ray",
+    "artistSlug": "man-ray",
+    "image": "/images/works/the-gift.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-goldfish",
+    "title": "The Goldfish",
+    "artist": "Henri Matisse",
+    "artistSlug": "henri-matisse",
+    "image": "/images/works/the-goldfish.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-grand-canal-of-venice",
+    "title": "The grand canal of Venice",
+    "artist": "Edouard Manet",
+    "artistSlug": "edouard-manet",
+    "image": "/images/works/the-grand-canal-of-venice.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-hungry-lion-throws-itself-on-the-antelope",
+    "title": "The Hungry Lion Throws Itself on the Antelope",
+    "artist": "Henri Rousseau",
+    "artistSlug": "henri-rousseau",
+    "image": "/images/works/the-hungry-lion-throws-itself-on-the-antelope.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-laugh",
+    "title": "The Laugh",
+    "artist": "Umberto Boccioni",
+    "artistSlug": "umberto-boccioni",
+    "image": "/images/works/the-laugh.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-lovers-i",
+    "title": "The Lovers I",
+    "artist": "Rene Magritte",
+    "artistSlug": "rene-magritte",
+    "image": "/images/works/the-lovers-i.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-luncheon-on-the-grass",
+    "title": "The Luncheon on the Grass",
+    "artist": "Edouard Manet",
+    "artistSlug": "edouard-manet",
+    "image": "/images/works/the-luncheon-on-the-grass.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-night-cafe",
+    "title": "The Night Cafe",
+    "artist": "Vincent van Gogh",
+    "artistSlug": "vincent-van-gogh",
+    "image": "/images/works/the-night-cafe.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-piazza-san-marco-venice",
+    "title": "The Piazza San Marco, Venice",
+    "artist": "Pierre-Auguste Renoir",
+    "artistSlug": "pierre-auguste-renoir",
+    "image": "/images/works/the-piazza-san-marco-venice.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-pine-tree-at-saint-tropez",
+    "title": "The Pine Tree at Saint Tropez",
+    "artist": "Paul Signac",
+    "artistSlug": "paul-signac",
+    "image": "/images/works/the-pine-tree-at-saint-tropez.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-port-of-rotterdam",
+    "title": "The Port of Rotterdam",
+    "artist": "Paul Signac",
+    "artistSlug": "paul-signac",
+    "image": "/images/works/the-port-of-rotterdam.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-port-of-saint-tropez",
+    "title": "The Port of Saint-Tropez",
+    "artist": "Paul Signac",
+    "artistSlug": "paul-signac",
+    "image": "/images/works/the-port-of-saint-tropez.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-red-model",
+    "title": "The Red Model",
+    "artist": "Rene Magritte",
+    "artistSlug": "rene-magritte",
+    "image": "/images/works/the-red-model.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-seine-at-chatou-maurice-de-vlaminck-fauvism",
+    "title": "The Seine at Chatou (Maurice de Vlaminck, Fauvism)",
+    "artist": "Maurice de Vlaminck (French, 1876-1958, Fauvism)",
+    "artistSlug": "maurice-de-vlaminck",
+    "image": "/images/works/the-seine-at-chatou-maurice-de-vlaminck-fauvism.jpeg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-sleeping-gypsy",
+    "title": "The Sleeping Gypsy",
+    "artist": "Henri Rousseau",
+    "artistSlug": "henri-rousseau",
+    "image": "/images/works/the-sleeping-gypsy.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-son-of-man",
+    "title": "The Son of Man",
+    "artist": "Rene Magritte",
+    "artistSlug": "rene-magritte",
+    "image": "/images/works/the-son-of-man.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-starry-night-over-the-rhone-vincent-van-gogh-post-impressionism",
+    "title": "The Starry Night Over The Rhone (Vincent van Gogh, Post-impressionism)",
+    "artist": "Vincent van Gogh",
+    "artistSlug": "vincent-van-gogh",
+    "image": "/images/works/the-starry-night-over-the-rhone-vincent-van-gogh-post-impressionism.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-street-enters-the-house",
+    "title": "The Street Enters the House",
+    "artist": "Umberto Boccioni",
+    "artistSlug": "umberto-boccioni",
+    "image": "/images/works/the-street-enters-the-house.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-studio",
+    "title": "The Studio",
+    "artist": "Pablo Picasso",
+    "artistSlug": "pablo-picasso",
+    "image": "/images/works/the-studio.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-sun",
+    "title": "The Sun",
+    "artist": "Edvard Munch",
+    "artistSlug": "edvard-munch",
+    "image": "/images/works/the-sun.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-temptation-of-saint-anthony",
+    "title": "The Temptation of Saint Anthony",
+    "artist": "Salvador Dali",
+    "artistSlug": "salvador-dali",
+    "image": "/images/works/the-temptation-of-saint-anthony.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-theatre-box",
+    "title": "The Theatre Box",
+    "artist": "Pierre-Auguste Renoir",
+    "artistSlug": "pierre-auguste-renoir",
+    "image": "/images/works/the-theatre-box.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-tilled-field",
+    "title": "The Tilled Field",
+    "artist": "Joan Miro",
+    "artistSlug": "joan-miro",
+    "image": "/images/works/the-tilled-field.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-treachery-of-images",
+    "title": "The Treachery of Images",
+    "artist": "Rene Magritte",
+    "artistSlug": "rene-magritte",
+    "image": "/images/works/the-treachery-of-images.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-turning-road",
+    "title": "The Turning Road",
+    "artist": "Andre Derain",
+    "artistSlug": "andre-derain",
+    "image": "/images/works/the-turning-road.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "the-two-barges",
+    "title": "The Two Barges",
+    "artist": "Andre Derain",
+    "artistSlug": "andre-derain",
+    "image": "/images/works/the-two-barges.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "three-women",
+    "title": "Three Women",
+    "artist": "Fernand Leger",
+    "artistSlug": "fernand-leger",
+    "image": "/images/works/three-women.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "torn-up-woodcut",
+    "title": "Torn-Up Woodcut",
+    "artist": "Jean Arp",
+    "artistSlug": "jean-arp",
+    "image": "/images/works/torn-up-woodcut.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "two-sisters-on-the-terrace",
+    "title": "Two Sisters (On the Terrace)",
+    "artist": "Pierre-Auguste Renoir",
+    "artistSlug": "pierre-auguste-renoir",
+    "image": "/images/works/two-sisters-on-the-terrace.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "two-tahitian-women-paul-gauguin-post-impressionism",
+    "title": "Two Tahitian Women (Paul Gauguin, Post-impressionism)",
+    "artist": "Paul Gauguin",
+    "artistSlug": "paul-gauguin",
+    "image": "/images/works/two-tahitian-women-paul-gauguin-post-impressionism.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "unique-forms-of-continuity-in-space",
+    "title": "Unique Forms of Continuity in Space",
+    "artist": "Umberto Boccioni",
+    "artistSlug": "umberto-boccioni",
+    "image": "/images/works/unique-forms-of-continuity-in-space.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "untitled-progression",
+    "title": "Untitled (Progression)",
+    "artist": "Donald Judd",
+    "artistSlug": "donald-judd",
+    "image": "/images/works/untitled-progression.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "untitled-stack",
+    "title": "Untitled (Stack)",
+    "artist": "Donald Judd",
+    "artistSlug": "donald-judd",
+    "image": "/images/works/untitled-stack.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "vision-after-the-sermon",
+    "title": "Vision After the Sermon",
+    "artist": "Paul Gauguin",
+    "artistSlug": "paul-gauguin",
+    "image": "/images/works/vision-after-the-sermon.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "water-lilies-series",
+    "title": "Water Lilies series",
+    "artist": "Claude Monet",
+    "artistSlug": "claude-monet",
+    "image": "/images/works/water-lilies-series.jpg",
+    "kind": "series"
+  },
+  {
+    "slug": "westminster-bridge",
+    "title": "Westminster Bridge",
+    "artist": "Andre Derain",
+    "artistSlug": "andre-derain",
+    "image": "/images/works/westminster-bridge.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "wheatfield-with-crows-vincent-van-gogh-post-impressionism",
+    "title": "Wheatfield with Crows (Vincent van Gogh, Post-impressionism)",
+    "artist": "Vincent van Gogh",
+    "artistSlug": "vincent-van-gogh",
+    "image": "/images/works/wheatfield-with-crows-vincent-van-gogh-post-impressionism.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "when-will-you-marry",
+    "title": "When Will You Marry?",
+    "artist": "Paul Gauguin",
+    "artistSlug": "paul-gauguin",
+    "image": "/images/works/when-will-you-marry.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "where-do-we-come-from-what-are-we-where-are-we-going",
+    "title": "Where Do We Come From? What Are We? Where Are We Going?",
+    "artist": "Paul Gauguin",
+    "artistSlug": "paul-gauguin",
+    "image": "/images/works/where-do-we-come-from-what-are-we-where-are-we-going.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "white-night",
+    "title": "White Night",
+    "artist": "Edvard Munch",
+    "artistSlug": "edvard-munch",
+    "image": "/images/works/white-night.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "white-on-white",
+    "title": "White on White",
+    "artist": "Kazimir Malevich",
+    "artistSlug": "kazimir-malevich",
+    "image": "/images/works/white-on-white.png",
+    "kind": "work"
+  },
+  {
+    "slug": "why-not-sneeze-rose-selavy",
+    "title": "Why Not Sneeze Rose Selavy?",
+    "artist": "Marcel Duchamp",
+    "artistSlug": "marcel-duchamp",
+    "image": "/images/works/why-not-sneeze-rose-selavy.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "woman-dressing-her-hair",
+    "title": "Woman Dressing Her Hair",
+    "artist": "Pablo Picasso",
+    "artistSlug": "pablo-picasso",
+    "image": "/images/works/woman-dressing-her-hair.jpg",
+    "kind": "work"
+  },
+  {
+    "slug": "woman-with-a-hat",
+    "title": "Woman with a Hat",
+    "artist": "Henri Matisse",
+    "artistSlug": "henri-matisse",
+    "image": "/images/works/woman-with-a-hat.jpg",
+    "kind": "work"
+  }
+]
