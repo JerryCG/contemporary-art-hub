@@ -1174,7 +1174,7 @@ export const extraWorks: Work[] = [
     image: null,
     images: [],
     paragraphs: [
-      "Thirty-two canvases, thirty-two flavors. The grocery aisle as a chapel of repetition. Study image omitted: the Hub does not scrape in-copyright museum files.",
+      "Thirty-two canvases, thirty-two flavors. The grocery aisle as a chapel of repetition.",
     ],
     featured: null,
     origin: false,

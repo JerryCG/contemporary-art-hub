@@ -1,5 +1,6 @@
 import catalogJson from "../../content/catalog.json";
 import { withBase } from "./base";
+import { artistPortraits, movementHeroes, studyPlateNote, workImages } from "./image-fills";
 import {
   extraArtists,
   extraLinksToOriginalRooms,
@@ -64,6 +65,29 @@ for (const w of extraWorks) {
   if (!workMap.has(w.slug)) workMap.set(w.slug, w);
   const artist = artistMap.get(w.artist);
   if (artist && !artist.workSlugs.includes(w.slug)) artist.workSlugs.push(w.slug);
+}
+
+for (const [slug, src] of Object.entries(workImages)) {
+  const w = workMap.get(slug);
+  if (!w) continue;
+  w.image = src;
+  if (!w.images.includes(src)) w.images = [src, ...w.images];
+  if (!w.origin && !w.credit) w.credit = studyPlateNote;
+}
+for (const [slug, src] of Object.entries(artistPortraits)) {
+  const a = artistMap.get(slug);
+  if (a && !a.portrait) a.portrait = src;
+}
+for (const [slug, src] of Object.entries(movementHeroes)) {
+  const m = movementMap.get(slug);
+  if (m && !m.heroImage) m.heroImage = src;
+}
+for (const m of movementMap.values()) {
+  if (m.slideshow.length) continue;
+  m.slideshow = Array.from(workMap.values())
+    .filter((w) => w.movement === m.slug && w.image)
+    .map((w) => w.image as string)
+    .slice(0, 8);
 }
 
 for (const [mslug, slugs] of Object.entries(extraLinksToOriginalRooms)) {

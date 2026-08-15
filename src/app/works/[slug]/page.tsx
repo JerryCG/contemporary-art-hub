@@ -55,8 +55,8 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
           <Prose paragraphs={w.paragraphs} />
           {!w.origin && (
             <p className="mt-4 text-sm italic text-ink/50">
-              Added in the 2026 expansion. Study images are omitted when the work is still in copyright; the looking is in the
-              words.
+              Added in the 2026 expansion. Where a museum scan is still in copyright, the Hub shows a study plate in the
+              language of the room — not a forgery of the original.
             </p>
           )}
           {w.credit && <p className="mt-3 text-xs text-ink/45">{w.credit}</p>}
