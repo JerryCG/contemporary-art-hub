@@ -67,15 +67,15 @@ export default function CompassPage() {
   const winner = Object.entries(votes).sort((a, b) => b[1] - a[1])[0]?.[0] ?? "impressionism";
 
   return (
-    <div className="mx-auto max-w-xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">Compass</h1>
+    <div className="page max-w-xl">
+      <h1 className="display display-page">Compass</h1>
       <p className="mt-3 text-ink/70">Six short questions. Then we suggest a room.</p>
       {!done ? (
         <div className="mt-10">
           <p className="text-xs uppercase tracking-widest text-ink/40">
             {i + 1} / {qs.length}
           </p>
-          <h2 className="display mt-3 text-3xl">{qs[i].q}</h2>
+          <h2 className="display display-section mt-3">{qs[i].q}</h2>
           <div className="mt-6 space-y-3">
             {qs[i].opts.map((o) => (
               <button
@@ -95,7 +95,7 @@ export default function CompassPage() {
       ) : (
         <div className="mt-10">
           <p className="text-ink/60">A room that may fit:</p>
-          <p className="display mt-2 text-5xl capitalize">{winner.replace(/-/g, " ")}</p>
+          <p className="display display-page mt-2 capitalize">{winner.replace(/-/g, " ")}</p>
           <Link href={`/rooms/${winner}`} className="mt-8 inline-block rounded-full bg-ink px-5 py-2 text-paper">
             Open
           </Link>

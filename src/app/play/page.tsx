@@ -16,13 +16,13 @@ const toys = [
 
 export default function PlayPage() {
   return (
-    <div className="mx-auto max-w-5xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">Play</h1>
-      <p className="mt-4 max-w-2xl text-lg text-ink/70">Short games to help you look. No account needed.</p>
-      <div className="mt-12 grid gap-4 sm:grid-cols-2">
+    <div className="page max-w-5xl">
+      <h1 className="display display-page">Play</h1>
+      <p className="mt-4 max-w-2xl text-base text-ink/70 sm:text-lg">Short games to help you look. No account needed.</p>
+      <div className="mt-8 grid gap-4 sm:mt-12 sm:grid-cols-2">
         {toys.map((t) => (
           <Link key={t.href} href={t.href} className="border border-ink/10 p-6 hover:shadow-card">
-            <h2 className="display text-3xl">{t.title}</h2>
+            <h2 className="display display-section">{t.title}</h2>
             <p className="mt-2 text-ink/60">{t.note}</p>
           </Link>
         ))}

@@ -40,13 +40,13 @@ export function AskGrok({
   return (
     <div className="mt-10 border-t border-ink/10 pt-6">
       <p className="text-[11px] uppercase tracking-[0.2em] text-ink/45">Ask the looking companion</p>
-      <div className="mt-3 flex gap-2">
+      <div className="mt-3 flex flex-col gap-2 sm:flex-row">
         <input
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          className="flex-1 border border-ink/15 bg-paper-raised px-3 py-2 text-sm outline-none"
+          className="min-w-0 flex-1 border border-ink/15 bg-paper-raised px-3 py-2 text-sm outline-none"
         />
-        <button type="button" onClick={ask} disabled={busy} className="bg-ink px-4 py-2 text-sm text-paper disabled:opacity-50">
+        <button type="button" onClick={ask} disabled={busy} className="bg-ink px-4 py-2 text-sm text-paper disabled:opacity-50 sm:shrink-0">
           {busy ? "…" : "Ask"}
         </button>
       </div>

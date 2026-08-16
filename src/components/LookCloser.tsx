@@ -7,8 +7,8 @@ export function LookCloser({ images, title }: { images: string[]; title: string 
   const [zoom, setZoom] = useState(false);
   if (!images.length) {
     return (
-      <div className="flex min-h-[50vh] items-end bg-ink p-8 text-paper">
-        <p className="display text-4xl leading-tight">{title}</p>
+      <div className="flex min-h-[40vh] items-end bg-ink p-5 text-paper sm:min-h-[50vh] sm:p-8">
+        <p className="display display-page leading-tight">{title}</p>
       </div>
     );
   }
@@ -30,11 +30,15 @@ export function LookCloser({ images, title }: { images: string[]; title: string 
       <p className="mt-2 text-xs text-ink/45">Click the picture to look closer. Esc to leave.</p>
       {zoom && (
         <div
-          className="fixed inset-0 z-50 overflow-auto bg-ink/95 p-6"
+          className="fixed inset-0 z-50 overflow-auto bg-ink/95 p-3 sm:p-6"
           onClick={() => setZoom(false)}
           onKeyDown={(e) => e.key === "Escape" && setZoom(false)}
         >
-          <img src={src} alt={title} className="mx-auto max-w-none cursor-zoom-out" style={{ width: "min(1600px, 140%)" }} />
+          <img
+            src={src}
+            alt={title}
+            className="mx-auto max-h-[100svh] w-auto max-w-full cursor-zoom-out object-contain"
+          />
         </div>
       )}
     </div>

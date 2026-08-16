@@ -15,8 +15,8 @@ function CompareInner() {
   const B = withImage.find((w) => w.slug === b);
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">Compare</h1>
+    <div className="page max-w-5xl">
+      <h1 className="display display-page">Compare</h1>
       <p className="mt-3 text-ink/70">Slide to compare two works.</p>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <select value={a} onChange={(e) => setA(e.target.value)} className="border border-ink/15 bg-paper px-3 py-2">
@@ -34,7 +34,7 @@ function CompareInner() {
           ))}
         </select>
       </div>
-      <div className="relative mt-8 aspect-[16/9] overflow-hidden bg-ink">
+      <div className="relative mt-8 aspect-[4/3] overflow-hidden bg-ink sm:aspect-[16/9]">
         {B?.image && <img src={B.image} alt={B.title} className="absolute inset-0 h-full w-full object-contain" />}
         {A?.image && (
           <div className="absolute inset-0 overflow-hidden" style={{ width: `${split}%` }}>

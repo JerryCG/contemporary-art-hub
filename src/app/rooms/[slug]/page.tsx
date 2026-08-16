@@ -28,11 +28,11 @@ export default async function RoomPage({ params }: { params: Promise<{ slug: str
 
   return (
     <article className={atm.className}>
-      <header className="mx-auto max-w-6xl px-4 py-14 md:px-6">
+      <header className="page max-w-6xl">
         <p className="chip">
           {m.years} · {m.place}
         </p>
-        <h1 className="display mt-4 text-6xl leading-[0.9]">{m.title}</h1>
+        <h1 className="display display-hero mt-4">{m.title}</h1>
         <p className="mt-4 max-w-xl text-lg text-ink/70">{atm.label}</p>
         {m.heroImage && (
           <div className="frame mt-10 max-w-3xl">
@@ -41,7 +41,7 @@ export default async function RoomPage({ params }: { params: Promise<{ slug: str
         )}
       </header>
 
-      <section className="mx-auto max-w-3xl px-4 pb-10 md:px-6">
+      <section className="mx-auto w-full max-w-3xl px-4 pb-10 sm:px-6">
         <FloorTabs
           primer={<Prose paragraphs={m.paragraphs} />}
           deeper={m.deeper ? <Prose paragraphs={m.deeper} /> : <p className="text-ink/50">More to come.</p>}
@@ -55,9 +55,9 @@ export default async function RoomPage({ params }: { params: Promise<{ slug: str
         )}
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-12 md:px-6">
-        <h2 className="display text-3xl">Artists</h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+      <section className="page max-w-6xl py-10 md:py-12">
+        <h2 className="display display-section">Artists</h2>
+        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {artists.map((a) =>
             a ? (
               <Link key={a.slug} href={`/artists/${a.slug}`} className="group">
@@ -82,8 +82,8 @@ export default async function RoomPage({ params }: { params: Promise<{ slug: str
       </section>
 
       {works.length > 0 && (
-        <section className="mx-auto max-w-6xl px-4 pb-20 md:px-6">
-          <h2 className="display text-3xl">Works</h2>
+        <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6 md:pb-20">
+          <h2 className="display display-section">Works</h2>
           <div className="mt-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {works.map((w) => (
               <WorkFrame key={w.slug} work={w} artistName={getArtist(w.artist)?.name} />

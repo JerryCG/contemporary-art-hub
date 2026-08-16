@@ -19,8 +19,8 @@ export default function CutupPage() {
   const cut = useMemo(() => shuffle(text.split(/\s+/).filter(Boolean)).join(" "), [text, n]);
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">Cut-up</h1>
+    <div className="page max-w-3xl">
+      <h1 className="display display-page">Cut-up</h1>
       <p className="mt-3 text-ink/70">Shuffle a text the Dada way.</p>
       <textarea value={text} onChange={(e) => setText(e.target.value)} className="mt-6 min-h-32 w-full border border-ink/15 bg-paper-raised p-3" />
       <button type="button" onClick={() => setN((x) => x + 1)} className="mt-4 rounded-full bg-ink px-5 py-2 text-paper">

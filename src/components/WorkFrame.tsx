@@ -11,7 +11,7 @@ export function WorkFrame({
   priority?: boolean;
 }) {
   return (
-    <Link href={`/works/${work.slug}`} className="group block">
+    <Link href={`/works/${work.slug}`} className="group block min-w-0">
       <div className="frame">
         {work.image ? (
           <img

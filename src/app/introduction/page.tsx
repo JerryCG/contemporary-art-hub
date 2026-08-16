@@ -8,8 +8,8 @@ export const metadata: Metadata = { title: "Introduction" };
 export default function IntroductionPage() {
   const intro = catalog.introduction;
   return (
-    <article className="mx-auto max-w-3xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">{intro.title}</h1>
+    <article className="page max-w-3xl">
+      <h1 className="display display-page">{intro.title}</h1>
       <div className="mt-8">
         <Prose paragraphs={intro.paragraphs} />
       </div>

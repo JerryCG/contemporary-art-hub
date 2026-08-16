@@ -122,8 +122,8 @@ export function QuizTheater() {
           </button>
         </form>
       ) : (
-        <div className="mt-10 border border-ink/10 p-8">
-          <p className="display text-5xl">{pct}</p>
+        <div className="mt-10 border border-ink/10 p-5 sm:p-8">
+          <p className="display display-page">{pct}</p>
           <p className="mt-3 text-lg">{verdict()}</p>
           <p className="mt-2 text-sm text-ink/55">
             {score} / {questions.length}

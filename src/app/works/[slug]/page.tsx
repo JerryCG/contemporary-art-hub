@@ -26,7 +26,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
   const related = relatedWorks(w);
 
   return (
-    <article className="mx-auto max-w-6xl px-4 py-14 md:px-6">
+    <article className="page max-w-6xl">
       <p className="text-sm text-ink/50">
         {m && (
           <Link href={`/rooms/${m.slug}`} className="hover:text-ink">
@@ -42,7 +42,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
           </>
         )}
       </p>
-      <h1 className="display mt-4 text-5xl leading-[0.95]">{w.title}</h1>
+      <h1 className="display display-page mt-4">{w.title}</h1>
       <p className="mt-2 text-ink/55">
         {a?.name}
         {m ? `, ${m.title}` : ""}
@@ -76,7 +76,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
 
       {related.length > 0 && (
         <section className="mt-16">
-          <h2 className="display text-3xl">Nearby</h2>
+          <h2 className="display display-section">Nearby</h2>
           <div className="mt-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((r) => (
               <WorkFrame key={r.slug} work={r} artistName={getArtist(r.artist)?.name} />

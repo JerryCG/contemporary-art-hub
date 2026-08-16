@@ -8,12 +8,12 @@ export const metadata: Metadata = { title: "Atelier" };
 export default function AtelierPage() {
   const { xerox, soundMap, atlas, taikwun, fieldPhotos } = catalog.atelier;
   return (
-    <div className="mx-auto max-w-5xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">Atelier</h1>
-      <p className="mt-4 max-w-2xl text-lg text-ink/70">Works and notes by JerryCG.</p>
+    <div className="page max-w-5xl">
+      <h1 className="display display-page">Atelier</h1>
+      <p className="mt-4 max-w-2xl text-base text-ink/70 sm:text-lg">Works and notes by JerryCG.</p>
 
       <section id="xerox" className="mt-16">
-        <h2 className="display text-4xl">Xerox Art</h2>
+        <h2 className="display display-page">Xerox Art</h2>
         <div className="mt-6 max-w-3xl">
           <Prose paragraphs={xerox.paragraphs} />
         </div>
@@ -35,7 +35,7 @@ export default function AtelierPage() {
       </section>
 
       <section id="sound" className="mt-20">
-        <h2 className="display text-4xl">Sound Map</h2>
+        <h2 className="display display-page">Sound Map</h2>
         {soundMap.image && (
           <div className="frame mt-6">
             <img src={soundMap.image} alt="Sound map from Festival Walk to Olympia City" className="w-full" />
@@ -44,7 +44,7 @@ export default function AtelierPage() {
       </section>
 
       <section id="atlas" className="mt-20">
-        <h2 className="display text-4xl">Atlas 3</h2>
+        <h2 className="display display-page">Atlas 3</h2>
         <div className="mt-6 max-w-3xl">
           <Prose paragraphs={atlas.paragraphs} />
         </div>
@@ -55,7 +55,7 @@ export default function AtelierPage() {
       </section>
 
       <section id="taikwun" className="mt-20">
-        <h2 className="display text-4xl">Tai Kwun and Art Basel HK 2019</h2>
+        <h2 className="display display-page">Tai Kwun and Art Basel HK 2019</h2>
         <div className="mt-6 max-w-3xl">
           <Prose paragraphs={taikwun.paragraphs} />
         </div>
@@ -70,7 +70,7 @@ export default function AtelierPage() {
 
       {fieldPhotos.length > 0 && (
         <section className="mt-20">
-          <h2 className="display text-4xl">Field photographs</h2>
+          <h2 className="display display-page">Field photographs</h2>
           <div className="mt-8 columns-2 gap-3 md:columns-3">
             {fieldPhotos.map((src) => (
               <img key={src} src={src} alt="" className="mb-3 w-full" />

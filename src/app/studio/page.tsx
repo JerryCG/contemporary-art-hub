@@ -6,9 +6,9 @@ export const metadata: Metadata = { title: "Studio" };
 
 export default function StudioPage() {
   return (
-    <div className="mx-auto max-w-4xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">Studio</h1>
-      <p className="mt-4 max-w-2xl text-lg text-ink/70">
+    <div className="page max-w-4xl">
+      <h1 className="display display-page">Studio</h1>
+      <p className="mt-4 max-w-2xl text-base text-ink/70 sm:text-lg">
         Describe a scene or upload a photo, then choose a style. Play games need no key; this page needs an API key.
       </p>
       <StudioDesk movements={catalog.movements.map((m) => ({ slug: m.slug, title: m.title }))} />

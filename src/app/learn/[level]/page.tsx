@@ -18,9 +18,9 @@ export default async function PathPage({ params }: { params: Promise<{ level: st
   const p = paths[level as keyof typeof paths];
   if (!p) notFound();
   return (
-    <article className="mx-auto max-w-3xl px-4 py-16 md:px-6">
+    <article className="page max-w-3xl">
       <p className="chip">{p.duration}</p>
-      <h1 className="display mt-4 text-5xl">{p.title}</h1>
+      <h1 className="display display-page mt-4">{p.title}</h1>
       <p className="mt-4 text-lg text-ink/70">{p.lede}</p>
       <ol className="mt-12 space-y-6">
         {p.steps.map((s, i) => (

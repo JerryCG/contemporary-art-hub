@@ -10,12 +10,22 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
   background: var(--paper);
   color: var(--ink);
   font-feature-settings: "ss01" on, "kern" on;
+  overflow-x: clip;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+img,
+video,
+canvas {
+  max-width: 100%;
 }
 
 ::selection {
@@ -50,10 +60,31 @@ body {
 .display {
   font-family: var(--font-display), Georgia, serif;
   font-optical-sizing: auto;
+  overflow-wrap: break-word;
+}
+
+.display-hero {
+  font-size: clamp(2.15rem, 9vw, 4.75rem);
+  line-height: 0.92;
+}
+
+.display-page {
+  font-size: clamp(1.9rem, 6.6vw, 3.35rem);
+  line-height: 0.96;
+}
+
+.display-section {
+  font-size: clamp(1.4rem, 3.8vw, 2rem);
+  line-height: 1.08;
+}
+
+.page {
+  @apply mx-auto w-full px-4 py-8 sm:px-6 sm:py-12 md:py-16;
 }
 
 .prose-hub p {
-  @apply text-[1.05rem] leading-[1.7] text-ink/90 text-pretty;
+  @apply leading-[1.7] text-ink/90 text-pretty;
+  font-size: clamp(1rem, 0.96rem + 0.28vw, 1.08rem);
 }
 .prose-hub p + p {
   @apply mt-4;
@@ -61,7 +92,15 @@ body {
 
 .frame {
   @apply bg-paper-raised shadow-frame;
-  padding: 0.55rem;
+  padding: clamp(0.32rem, 1.4vw, 0.55rem);
+}
+
+.nav-scroll {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.nav-scroll::-webkit-scrollbar {
+  display: none;
 }
 
 .atm-impressionism { background: radial-gradient(1200px 600px at 20% 0%, #d7ecff 0%, transparent 50%), linear-gradient(180deg, #f6f1e4, #e7f0d8); }

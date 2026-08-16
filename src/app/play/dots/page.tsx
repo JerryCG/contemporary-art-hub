@@ -21,10 +21,10 @@ export default function DotsPage() {
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">Dots</h1>
+    <div className="page max-w-3xl">
+      <h1 className="display display-page">Dots</h1>
       <p className="mt-4 text-ink/70">Place dots of color. Step back and they mix in your eye.</p>
-      <div className="mt-6 flex gap-2">
+      <div className="mt-6 flex flex-wrap gap-2">
         {palette.map((p) => (
           <button key={p} type="button" onClick={() => setColor(p)} className="h-8 w-8 rounded-full border border-ink/20" style={{ background: p }} />
         ))}

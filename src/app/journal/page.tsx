@@ -20,12 +20,12 @@ export default function JournalPage() {
     p.kind === "work" ? `/works/${p.slug}` : p.kind === "artist" ? `/artists/${p.slug}` : `/rooms/${p.slug}`;
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">Journal</h1>
+    <div className="page max-w-3xl">
+      <h1 className="display display-page">Journal</h1>
       <p className="mt-4 text-ink/70">Your pins and notes stay in this browser.</p>
 
       <section className="mt-12">
-        <h2 className="display text-3xl">Pinned</h2>
+        <h2 className="display display-section">Pinned</h2>
         {pins.length === 0 && <p className="mt-3 text-ink/50">Nothing pinned yet.</p>}
         <ul className="mt-4 space-y-2">
           {pins.map((p) => (
@@ -39,7 +39,7 @@ export default function JournalPage() {
       </section>
 
       <section className="mt-12">
-        <h2 className="display text-3xl">Notes</h2>
+        <h2 className="display display-section">Notes</h2>
         <form
           className="mt-4"
           onSubmit={(e) => {
@@ -66,7 +66,7 @@ export default function JournalPage() {
 
       {studio.length > 0 && (
         <section className="mt-12">
-          <h2 className="display text-3xl">Studio saves</h2>
+          <h2 className="display display-section">Studio saves</h2>
           <div className="mt-4 grid grid-cols-2 gap-3">
             {studio.map((s) => (
               <figure key={s.id}>

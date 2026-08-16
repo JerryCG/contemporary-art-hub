@@ -43,8 +43,8 @@ export default function XeroxPage() {
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16 md:px-6">
-      <h1 className="display text-5xl">Xerox</h1>
+    <div className="page max-w-3xl">
+      <h1 className="display display-page">Xerox</h1>
       <p className="mt-4 text-ink/70">Upload a photo and watch each copy lose detail.</p>
       <input type="file" accept="image/*" className="mt-6" onChange={(e) => e.target.files?.[0] && onFile(e.target.files[0])} />
       <canvas ref={ref} className="mt-6 w-full bg-paper-deep" />

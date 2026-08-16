@@ -51,7 +51,7 @@ export function ExhibitionBoard() {
               {s.city}
               {s.dates ? ` · ${s.dates}` : ""}
             </p>
-            <a href={s.href} target="_blank" rel="noreferrer" className="display mt-1 block text-3xl hover:text-sky">
+            <a href={s.href} target="_blank" rel="noreferrer" className="display display-section mt-1 block hover:text-sky">
               {s.title}
             </a>
             <p className="mt-1 text-sm text-ink/55">{s.venue}</p>

@@ -23,7 +23,7 @@ export default async function ArtistPage({ params }: { params: Promise<{ slug: s
   const works = worksByArtist(a.slug);
 
   return (
-    <article className="mx-auto max-w-6xl px-4 py-14 md:px-6">
+    <article className="page max-w-6xl">
       <p className="text-sm text-ink/50">
         <Link href="/rooms">Rooms</Link>
         {m && (
@@ -33,8 +33,8 @@ export default async function ArtistPage({ params }: { params: Promise<{ slug: s
           </>
         )}
       </p>
-      <div className="mt-6 grid gap-10 md:grid-cols-[minmax(0,280px)_1fr]">
-        <div>
+      <div className="mt-6 grid gap-8 md:grid-cols-[minmax(0,240px)_1fr] md:gap-10 lg:grid-cols-[minmax(0,280px)_1fr]">
+        <div className="mx-auto w-full max-w-xs md:mx-0">
           <div className="frame">
             {a.portrait ? (
               <img src={a.portrait} alt={a.name} className="w-full object-cover" />
@@ -51,7 +51,7 @@ export default async function ArtistPage({ params }: { params: Promise<{ slug: s
             {a.life ? ` · ${a.life}` : ""}
             {m ? ` · ${m.title}` : ""}
           </p>
-          <h1 className="display mt-4 text-5xl leading-[0.95]">{a.name}</h1>
+          <h1 className="display display-page mt-4">{a.name}</h1>
           <div className="mt-6 max-w-2xl">
             <Prose paragraphs={a.paragraphs} />
           </div>
@@ -61,7 +61,7 @@ export default async function ArtistPage({ params }: { params: Promise<{ slug: s
         </div>
       </div>
       <section className="mt-16">
-        <h2 className="display text-3xl">Works</h2>
+        <h2 className="display display-section">Works</h2>
         <div className="mt-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {works.map((w) => (
             <WorkFrame key={w.slug} work={w} artistName={a.name} />

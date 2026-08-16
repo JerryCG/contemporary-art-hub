@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Outfit } from "next/font/google";
 import { Shell } from "@/components/Shell";
 import "./globals.css";
@@ -21,6 +21,12 @@ export const metadata: Metadata = {
   description:
     "A simple guide to contemporary art: movements, artists, a quiz, and a studio.",
   icons: { icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/heritage/logo-mark.png` },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
