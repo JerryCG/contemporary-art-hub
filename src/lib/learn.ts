@@ -13,7 +13,7 @@ export const paths = {
       { href: "/works/impression-sunrise", title: "Impression, Sunrise", why: "The painting that named a movement." },
       { href: "/rooms/cubism", title: "Cubism", why: "An object seen from many sides." },
       { href: "/works/fountain", title: "Fountain", why: "When an everyday object became art." },
-      { href: "/atelier", title: "Atelier", why: "Jerry’s own works and notes." },
+      { href: "/atelier", title: "Atelier", why: "Jerry’s works and art appreciation." },
     ] satisfies LearnStep[],
   },
   intermediate: {

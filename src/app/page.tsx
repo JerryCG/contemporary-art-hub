@@ -95,21 +95,24 @@ export default function HallPage() {
         </div>
       </section>
 
-      <section className="mx-auto grid w-full max-w-6xl gap-8 px-4 pb-16 sm:px-6 md:grid-cols-2 md:pb-24">
-        <Link href="/atelier" className="group min-w-0 overflow-hidden">
-          <img src={withBase("/images/heritage/hall-1.jpg")} alt="" className="h-44 w-full object-cover sm:h-56" />
-          <div className="pt-4 sm:pt-5">
-            <h3 className="display display-section group-hover:text-sky">Works by JerryCG</h3>
-            <p className="mt-2 text-ink/65">Xerox art and a sound map.</p>
-          </div>
-        </Link>
-        <Link href="/atelier#atlas" className="group min-w-0 overflow-hidden">
-          <img src={withBase("/images/heritage/hall-2.jpg")} alt="" className="h-44 w-full object-cover sm:h-56" />
-          <div className="pt-4 sm:pt-5">
-            <h3 className="display display-section group-hover:text-sky">Tai Kwun and Art Basel</h3>
-            <p className="mt-2 text-ink/65">Notes from exhibitions in Hong Kong.</p>
-          </div>
-        </Link>
+      <section className="page max-w-6xl pb-16 pt-0 md:pb-24">
+        <h2 className="display display-section">JerryCG’s</h2>
+        <div className="mt-8 grid gap-8 md:grid-cols-2">
+          <Link href="/atelier/works" className="group min-w-0 overflow-hidden">
+            <img src={withBase("/images/heritage/hall-1.jpg")} alt="" className="h-44 w-full object-cover sm:h-56" />
+            <div className="pt-4 sm:pt-5">
+              <h3 className="display display-section group-hover:text-sky">Works</h3>
+              <p className="mt-2 text-ink/65">Xerox art and a sound map.</p>
+            </div>
+          </Link>
+          <Link href="/atelier/appreciation" className="group min-w-0 overflow-hidden">
+            <img src={withBase("/images/heritage/hall-2.jpg")} alt="" className="h-44 w-full object-cover sm:h-56" />
+            <div className="pt-4 sm:pt-5">
+              <h3 className="display display-section group-hover:text-sky">Art Appreciation</h3>
+              <p className="mt-2 text-ink/65">Atlas 3, Tai Kwun, and Art Basel HK 2019.</p>
+            </div>
+          </Link>
+        </div>
       </section>
     </div>
   );
