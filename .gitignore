@@ -6,6 +6,7 @@ out
 .env.local
 .tools
 *.log
+*.tsbuildinfo
 plan.txt
 .DS_Store
 Thumbs.db
